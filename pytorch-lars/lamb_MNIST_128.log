@@ -1,0 +1,5 @@
+2023-02-20 00:42:32:INFO:world_size:4
+2023-02-20 00:42:32:INFO:fix the seed:2020
+2023-02-20 00:42:32:INFO:Use optimizer:lamb, dataset:MNIST, batch size:128
+2023-02-20 00:42:32:INFO:search lr from: 0.1 to 0.1 with number:10
+2023-02-20 00:42:32:INFO:Use mixup ? 0,  beta:0.2 

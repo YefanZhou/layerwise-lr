@@ -1,0 +1,15 @@
+2023-02-19 23:19:39:INFO:world_size:4
+2023-02-19 23:19:39:INFO:fix the seed:2020
+2023-02-19 23:19:39:INFO:Use optimizer:lars, dataset:MNIST, batch size:1024
+2023-02-19 23:19:39:INFO:search lr from: 0.004 to 0.04 with number:10
+2023-02-19 23:19:39:INFO:Use mixup ? 0,  beta:0.2 
+2023-02-19 23:23:49:INFO:world_size:4
+2023-02-19 23:23:49:INFO:fix the seed:2020
+2023-02-19 23:23:49:INFO:Use optimizer:lars, dataset:MNIST, batch size:1024
+2023-02-19 23:23:49:INFO:search lr from: 0.004 to 0.04 with number:10
+2023-02-19 23:23:49:INFO:Use mixup ? 0,  beta:0.2 
+2023-02-19 23:25:47:INFO:world_size:4
+2023-02-19 23:25:47:INFO:fix the seed:2020
+2023-02-19 23:25:47:INFO:Use optimizer:lars, dataset:MNIST, batch size:1024
+2023-02-19 23:25:47:INFO:search lr from: 0.004 to 0.04 with number:10
+2023-02-19 23:25:47:INFO:Use mixup ? 0,  beta:0.2 

@@ -1,0 +1,739 @@
+2023-02-19 23:29:20:INFO:world_size:4
+2023-02-19 23:29:20:INFO:fix the seed:2020
+2023-02-19 23:29:20:INFO:Use optimizer:sgd, dataset:MNIST, batch size:2048
+2023-02-19 23:29:20:INFO:search lr from: 0.004 to 0.04 with number:10
+2023-02-19 23:29:20:INFO:Use mixup ? 0,  beta:0.2 
+2023-02-19 23:29:24:INFO:Training epoch:1, lr:0.000173, loss:2.311273, acc1:8.2031, acc5:40.2344
+2023-02-19 23:29:24:INFO:Reducer buckets have been rebuilt in this iteration.
+2023-02-19 23:29:24:INFO:Training epoch:1, lr:0.000306, loss:2.307277, acc1:10.3338, acc5:43.3949
+2023-02-19 23:29:24:INFO:Training epoch:1, lr:0.000439, loss:2.303063, acc1:11.2165, acc5:45.4241
+2023-02-19 23:29:24:INFO:Training epoch:1, lr:0.000572, loss:2.297844, acc1:12.1220, acc5:48.9919
+2023-02-19 23:29:24:INFO:Training epoch:1, lr:0.000705, loss:2.290155, acc1:14.3388, acc5:55.1925
+2023-02-19 23:29:24:INFO:Training epoch:1, lr:0.000838, loss:2.280113, acc1:19.4087, acc5:61.4047
+2023-02-19 23:29:25:INFO: Testing epoch: 1, Average loss: 2.1984, Top1-Acc: 56.5000, Top5-Acc: 92.9800
+2023-02-19 23:29:25:INFO:Training epoch:2, lr:0.000944, loss:2.196744, acc1:56.2500, acc5:94.5312
+2023-02-19 23:29:26:INFO:Training epoch:2, lr:0.001077, loss:2.177617, acc1:59.9432, acc5:92.9332
+2023-02-19 23:29:26:INFO:Training epoch:2, lr:0.001210, loss:2.152374, acc1:62.2768, acc5:93.4152
+2023-02-19 23:29:26:INFO:Training epoch:2, lr:0.001343, loss:2.117163, acc1:64.6421, acc5:93.3342
+2023-02-19 23:29:26:INFO:Training epoch:2, lr:0.001475, loss:2.070119, acc1:66.6254, acc5:93.9024
+2023-02-19 23:29:26:INFO:Training epoch:2, lr:0.001608, loss:2.004683, acc1:68.2292, acc5:94.6385
+2023-02-19 23:29:27:INFO: Testing epoch: 2, Average loss: 1.3573, Top1-Acc: 79.6200, Top5-Acc: 98.6700
+2023-02-19 23:29:27:INFO:Training epoch:3, lr:0.001715, loss:1.397233, acc1:80.0781, acc5:96.8750
+2023-02-19 23:29:27:INFO:Training epoch:3, lr:0.001847, loss:1.202128, acc1:79.4744, acc5:98.0114
+2023-02-19 23:29:27:INFO:Training epoch:3, lr:0.001980, loss:1.034150, acc1:81.3244, acc5:98.3073
+2023-02-19 23:29:27:INFO:Training epoch:3, lr:0.002113, loss:0.902688, acc1:82.3715, acc5:98.3871
+2023-02-19 23:29:28:INFO:Training epoch:3, lr:0.002246, loss:0.804710, acc1:83.2793, acc5:98.5899
+2023-02-19 23:29:28:INFO:Training epoch:3, lr:0.002379, loss:0.738834, acc1:83.7240, acc5:98.6826
+2023-02-19 23:29:28:INFO: Testing epoch: 3, Average loss: 0.3829, Top1-Acc: 88.9700, Top5-Acc: 99.3200
+2023-02-19 23:29:29:INFO:Training epoch:4, lr:0.002485, loss:0.350343, acc1:89.4531, acc5:99.6094
+2023-02-19 23:29:29:INFO:Training epoch:4, lr:0.002618, loss:0.390779, acc1:88.4233, acc5:99.2188
+2023-02-19 23:29:29:INFO:Training epoch:4, lr:0.002751, loss:0.385068, acc1:88.5417, acc5:99.1815
+2023-02-19 23:29:29:INFO:Training epoch:4, lr:0.002884, loss:0.377732, acc1:89.0877, acc5:99.2061
+2023-02-19 23:29:29:INFO:Training epoch:4, lr:0.003017, loss:0.364161, acc1:89.3864, acc5:99.2664
+2023-02-19 23:29:29:INFO:Training epoch:4, lr:0.003150, loss:0.351770, acc1:89.5757, acc5:99.3490
+2023-02-19 23:29:30:INFO: Testing epoch: 4, Average loss: 0.2914, Top1-Acc: 91.4800, Top5-Acc: 99.7300
+2023-02-19 23:29:30:INFO:Training epoch:5, lr:0.003256, loss:0.325355, acc1:90.6250, acc5:99.2188
+2023-02-19 23:29:31:INFO:Training epoch:5, lr:0.003389, loss:0.287471, acc1:91.6548, acc5:99.6449
+2023-02-19 23:29:31:INFO:Training epoch:5, lr:0.003522, loss:0.296744, acc1:91.0900, acc5:99.6466
+2023-02-19 23:29:31:INFO:Training epoch:5, lr:0.003655, loss:0.285975, acc1:91.4189, acc5:99.6346
+2023-02-19 23:29:31:INFO:Training epoch:5, lr:0.003787, loss:0.285824, acc1:91.3300, acc5:99.5903
+2023-02-19 23:29:31:INFO:Training epoch:5, lr:0.003920, loss:0.276584, acc1:91.7126, acc5:99.6400
+2023-02-19 23:29:32:INFO: Testing epoch: 5, Average loss: 0.2268, Top1-Acc: 93.4000, Top5-Acc: 99.7500
+2023-02-19 23:29:32:INFO:Training epoch:6, lr:0.003973, loss:0.241515, acc1:94.1406, acc5:99.6094
+2023-02-19 23:29:32:INFO:Training epoch:6, lr:0.003835, loss:0.238928, acc1:93.1463, acc5:99.7514
+2023-02-19 23:29:32:INFO:Training epoch:6, lr:0.003698, loss:0.232730, acc1:93.1734, acc5:99.7954
+2023-02-19 23:29:32:INFO:Training epoch:6, lr:0.003560, loss:0.229927, acc1:93.1956, acc5:99.7858
+2023-02-19 23:29:32:INFO:Training epoch:6, lr:0.003423, loss:0.230058, acc1:93.2260, acc5:99.7809
+2023-02-19 23:29:32:INFO:Training epoch:6, lr:0.003286, loss:0.227043, acc1:93.2368, acc5:99.8009
+2023-02-19 23:29:33:INFO: Testing epoch: 6, Average loss: 0.1920, Top1-Acc: 94.5000, Top5-Acc: 99.8600
+2023-02-19 23:29:33:INFO:Training epoch:7, lr:0.003176, loss:0.251171, acc1:94.1406, acc5:99.6094
+2023-02-19 23:29:34:INFO:Training epoch:7, lr:0.003038, loss:0.185688, acc1:94.6023, acc5:99.8580
+2023-02-19 23:29:34:INFO:Training epoch:7, lr:0.002901, loss:0.183086, acc1:94.4010, acc5:99.8512
+2023-02-19 23:29:34:INFO:Training epoch:7, lr:0.002764, loss:0.183227, acc1:94.2792, acc5:99.8740
+2023-02-19 23:29:34:INFO:Training epoch:7, lr:0.002626, loss:0.186677, acc1:94.3121, acc5:99.8571
+2023-02-19 23:29:34:INFO:Training epoch:7, lr:0.002489, loss:0.186580, acc1:94.4087, acc5:99.8238
+2023-02-19 23:29:35:INFO: Testing epoch: 7, Average loss: 0.1573, Top1-Acc: 95.6000, Top5-Acc: 99.9100
+2023-02-19 23:29:35:INFO:Training epoch:8, lr:0.002379, loss:0.106226, acc1:96.4844, acc5:100.0000
+2023-02-19 23:29:35:INFO:Training epoch:8, lr:0.002242, loss:0.157905, acc1:95.5256, acc5:99.8580
+2023-02-19 23:29:35:INFO:Training epoch:8, lr:0.002104, loss:0.170717, acc1:94.9963, acc5:99.8326
+2023-02-19 23:29:36:INFO:Training epoch:8, lr:0.001967, loss:0.168795, acc1:94.9975, acc5:99.8488
+2023-02-19 23:29:36:INFO:Training epoch:8, lr:0.001829, loss:0.162378, acc1:95.1601, acc5:99.8571
+2023-02-19 23:29:36:INFO:Training epoch:8, lr:0.001692, loss:0.161826, acc1:95.2436, acc5:99.8621
+2023-02-19 23:29:36:INFO: Testing epoch: 8, Average loss: 0.1467, Top1-Acc: 95.5800, Top5-Acc: 99.9300
+2023-02-19 23:29:37:INFO:Training epoch:9, lr:0.001582, loss:0.217112, acc1:95.7031, acc5:99.6094
+2023-02-19 23:29:37:INFO:Training epoch:9, lr:0.001445, loss:0.153587, acc1:95.4190, acc5:99.8580
+2023-02-19 23:29:37:INFO:Training epoch:9, lr:0.001307, loss:0.148227, acc1:95.6101, acc5:99.9070
+2023-02-19 23:29:37:INFO:Training epoch:9, lr:0.001170, loss:0.144518, acc1:95.6653, acc5:99.9244
+2023-02-19 23:29:37:INFO:Training epoch:9, lr:0.001033, loss:0.144892, acc1:95.7222, acc5:99.9047
+2023-02-19 23:29:37:INFO:Training epoch:9, lr:0.000895, loss:0.149958, acc1:95.5882, acc5:99.8775
+2023-02-19 23:29:38:INFO: Testing epoch: 9, Average loss: 0.1363, Top1-Acc: 96.0400, Top5-Acc: 99.9500
+2023-02-19 23:29:39:INFO:Training epoch:10, lr:0.000785, loss:0.143259, acc1:94.5312, acc5:100.0000
+2023-02-19 23:29:39:INFO:Training epoch:10, lr:0.000648, loss:0.126524, acc1:96.1648, acc5:99.9645
+2023-02-19 23:29:39:INFO:Training epoch:10, lr:0.000511, loss:0.125503, acc1:96.2240, acc5:99.9442
+2023-02-19 23:29:39:INFO:Training epoch:10, lr:0.000373, loss:0.131054, acc1:95.9677, acc5:99.9370
+2023-02-19 23:29:39:INFO:Training epoch:10, lr:0.000236, loss:0.135039, acc1:95.9604, acc5:99.9143
+2023-02-19 23:29:39:INFO:Training epoch:10, lr:0.000098, loss:0.139647, acc1:95.9712, acc5:99.9081
+2023-02-19 23:29:40:INFO: Testing epoch: 10, Average loss: 0.1341, Top1-Acc: 96.1700, Top5-Acc: 99.9500
+2023-02-19 23:29:40:INFO:LR:0.004000, test_loss:0.134109, test_acc:96.1700
+2023-02-19 23:29:40:INFO:Training epoch:1, lr:0.000347, loss:2.322447, acc1:2.7344, acc5:48.4375
+2023-02-19 23:29:40:INFO:Reducer buckets have been rebuilt in this iteration.
+2023-02-19 23:29:40:INFO:Training epoch:1, lr:0.000612, loss:2.317409, acc1:4.6165, acc5:49.1122
+2023-02-19 23:29:41:INFO:Training epoch:1, lr:0.000878, loss:2.307209, acc1:6.1198, acc5:52.2879
+2023-02-19 23:29:41:INFO:Training epoch:1, lr:0.001144, loss:2.291172, acc1:13.2434, acc5:59.2616
+2023-02-19 23:29:41:INFO:Training epoch:1, lr:0.001410, loss:2.271123, acc1:20.4078, acc5:65.6917
+2023-02-19 23:29:41:INFO:Training epoch:1, lr:0.001675, loss:2.243679, acc1:27.7497, acc5:70.5193
+2023-02-19 23:29:42:INFO: Testing epoch: 1, Average loss: 1.9684, Top1-Acc: 66.6500, Top5-Acc: 92.4400
+2023-02-19 23:29:42:INFO:Training epoch:2, lr:0.001888, loss:1.949323, acc1:70.3125, acc5:94.5312
+2023-02-19 23:29:42:INFO:Training epoch:2, lr:0.002154, loss:1.860778, acc1:64.9503, acc5:94.2472
+2023-02-19 23:29:42:INFO:Training epoch:2, lr:0.002419, loss:1.697837, acc1:68.6012, acc5:95.6659
+2023-02-19 23:29:42:INFO:Training epoch:2, lr:0.002685, loss:1.501440, acc1:71.9884, acc5:96.3836
+2023-02-19 23:29:42:INFO:Training epoch:2, lr:0.002951, loss:1.316468, acc1:74.0663, acc5:96.9131
+2023-02-19 23:29:43:INFO:Training epoch:2, lr:0.003217, loss:1.168827, acc1:75.9498, acc5:97.3039
+2023-02-19 23:29:43:INFO: Testing epoch: 2, Average loss: 0.4381, Top1-Acc: 87.1600, Top5-Acc: 99.2700
+2023-02-19 23:29:44:INFO:Training epoch:3, lr:0.003429, loss:0.482041, acc1:86.3281, acc5:99.2188
+2023-02-19 23:29:44:INFO:Training epoch:3, lr:0.003695, loss:0.461450, acc1:86.1151, acc5:98.8991
+2023-02-19 23:29:44:INFO:Training epoch:3, lr:0.003961, loss:0.429050, acc1:86.9420, acc5:99.0885
+2023-02-19 23:29:44:INFO:Training epoch:3, lr:0.004226, loss:0.406576, acc1:87.7394, acc5:99.1683
+2023-02-19 23:29:44:INFO:Training epoch:3, lr:0.004492, loss:0.386977, acc1:88.2717, acc5:99.2664
+2023-02-19 23:29:44:INFO:Training epoch:3, lr:0.004758, loss:0.376868, acc1:88.3885, acc5:99.3107
+2023-02-19 23:29:45:INFO: Testing epoch: 3, Average loss: 0.2761, Top1-Acc: 91.4700, Top5-Acc: 99.7100
+2023-02-19 23:29:45:INFO:Training epoch:4, lr:0.004971, loss:0.215583, acc1:94.1406, acc5:99.2188
+2023-02-19 23:29:45:INFO:Training epoch:4, lr:0.005236, loss:0.283611, acc1:91.1932, acc5:99.4318
+2023-02-19 23:29:46:INFO:Training epoch:4, lr:0.005502, loss:0.286222, acc1:91.2760, acc5:99.4234
+2023-02-19 23:29:46:INFO:Training epoch:4, lr:0.005768, loss:0.284033, acc1:91.5197, acc5:99.4582
+2023-02-19 23:29:46:INFO:Training epoch:4, lr:0.006033, loss:0.269779, acc1:92.1018, acc5:99.5046
+2023-02-19 23:29:46:INFO:Training epoch:4, lr:0.006299, loss:0.254038, acc1:92.6700, acc5:99.5558
+2023-02-19 23:29:47:INFO: Testing epoch: 4, Average loss: 0.1806, Top1-Acc: 94.8000, Top5-Acc: 99.8700
+2023-02-19 23:29:47:INFO:Training epoch:5, lr:0.006512, loss:0.198775, acc1:93.7500, acc5:100.0000
+2023-02-19 23:29:47:INFO:Training epoch:5, lr:0.006778, loss:0.177501, acc1:94.6733, acc5:99.8580
+2023-02-19 23:29:48:INFO:Training epoch:5, lr:0.007043, loss:0.182734, acc1:94.6057, acc5:99.8326
+2023-02-19 23:29:48:INFO:Training epoch:5, lr:0.007309, loss:0.174333, acc1:94.9471, acc5:99.8362
+2023-02-19 23:29:48:INFO:Training epoch:5, lr:0.007575, loss:0.175622, acc1:94.8647, acc5:99.8190
+2023-02-19 23:29:48:INFO:Training epoch:5, lr:0.007841, loss:0.168971, acc1:95.0291, acc5:99.8468
+2023-02-19 23:29:49:INFO: Testing epoch: 5, Average loss: 0.1275, Top1-Acc: 96.0500, Top5-Acc: 99.9500
+2023-02-19 23:29:49:INFO:Training epoch:6, lr:0.007945, loss:0.164159, acc1:96.8750, acc5:100.0000
+2023-02-19 23:29:49:INFO:Training epoch:6, lr:0.007670, loss:0.128363, acc1:96.5199, acc5:99.9645
+2023-02-19 23:29:50:INFO:Training epoch:6, lr:0.007396, loss:0.129260, acc1:96.2240, acc5:99.9442
+2023-02-19 23:29:50:INFO:Training epoch:6, lr:0.007121, loss:0.128130, acc1:96.1442, acc5:99.9244
+2023-02-19 23:29:50:INFO:Training epoch:6, lr:0.006846, loss:0.130774, acc1:96.0556, acc5:99.9333
+2023-02-19 23:29:50:INFO:Training epoch:6, lr:0.006571, loss:0.129621, acc1:96.0708, acc5:99.9387
+2023-02-19 23:29:51:INFO: Testing epoch: 6, Average loss: 0.1004, Top1-Acc: 97.1300, Top5-Acc: 99.9500
+2023-02-19 23:29:51:INFO:Training epoch:7, lr:0.006351, loss:0.139676, acc1:95.7031, acc5:99.2188
+2023-02-19 23:29:51:INFO:Training epoch:7, lr:0.006077, loss:0.101416, acc1:97.1591, acc5:99.9290
+2023-02-19 23:29:51:INFO:Training epoch:7, lr:0.005802, loss:0.102894, acc1:97.0796, acc5:99.9442
+2023-02-19 23:29:52:INFO:Training epoch:7, lr:0.005527, loss:0.099711, acc1:97.0892, acc5:99.9496
+2023-02-19 23:29:52:INFO:Training epoch:7, lr:0.005252, loss:0.101998, acc1:97.0274, acc5:99.9428
+2023-02-19 23:29:52:INFO:Training epoch:7, lr:0.004978, loss:0.104045, acc1:97.0435, acc5:99.9234
+2023-02-19 23:29:53:INFO: Testing epoch: 7, Average loss: 0.0825, Top1-Acc: 97.6600, Top5-Acc: 99.9600
+2023-02-19 23:29:53:INFO:Training epoch:8, lr:0.004758, loss:0.073652, acc1:97.6562, acc5:100.0000
+2023-02-19 23:29:53:INFO:Training epoch:8, lr:0.004483, loss:0.084276, acc1:97.5852, acc5:99.9645
+2023-02-19 23:29:53:INFO:Training epoch:8, lr:0.004208, loss:0.093334, acc1:97.3214, acc5:99.9070
+2023-02-19 23:29:53:INFO:Training epoch:8, lr:0.003934, loss:0.093202, acc1:97.3538, acc5:99.8992
+2023-02-19 23:29:53:INFO:Training epoch:8, lr:0.003659, loss:0.088350, acc1:97.5038, acc5:99.9047
+2023-02-19 23:29:54:INFO:Training epoch:8, lr:0.003384, loss:0.087863, acc1:97.4724, acc5:99.9234
+2023-02-19 23:29:54:INFO: Testing epoch: 8, Average loss: 0.0798, Top1-Acc: 97.5300, Top5-Acc: 99.9800
+2023-02-19 23:29:55:INFO:Training epoch:9, lr:0.003164, loss:0.149955, acc1:96.4844, acc5:99.6094
+2023-02-19 23:29:55:INFO:Training epoch:9, lr:0.002889, loss:0.081510, acc1:97.5852, acc5:99.9290
+2023-02-19 23:29:55:INFO:Training epoch:9, lr:0.002615, loss:0.078786, acc1:97.5818, acc5:99.9628
+2023-02-19 23:29:55:INFO:Training epoch:9, lr:0.002340, loss:0.077098, acc1:97.5806, acc5:99.9748
+2023-02-19 23:29:55:INFO:Training epoch:9, lr:0.002065, loss:0.078455, acc1:97.6562, acc5:99.9619
+2023-02-19 23:29:55:INFO:Training epoch:9, lr:0.001790, loss:0.082757, acc1:97.4877, acc5:99.9387
+2023-02-19 23:29:56:INFO: Testing epoch: 9, Average loss: 0.0708, Top1-Acc: 97.8700, Top5-Acc: 99.9700
+2023-02-19 23:29:56:INFO:Training epoch:10, lr:0.001571, loss:0.066392, acc1:97.6562, acc5:100.0000
+2023-02-19 23:29:57:INFO:Training epoch:10, lr:0.001296, loss:0.065864, acc1:97.9403, acc5:100.0000
+2023-02-19 23:29:57:INFO:Training epoch:10, lr:0.001021, loss:0.062872, acc1:98.0841, acc5:100.0000
+2023-02-19 23:29:57:INFO:Training epoch:10, lr:0.000746, loss:0.067037, acc1:97.9335, acc5:100.0000
+2023-02-19 23:29:57:INFO:Training epoch:10, lr:0.000472, loss:0.071301, acc1:97.8087, acc5:99.9905
+2023-02-19 23:29:57:INFO:Training epoch:10, lr:0.000197, loss:0.074843, acc1:97.7558, acc5:99.9847
+2023-02-19 23:29:58:INFO: Testing epoch: 10, Average loss: 0.0692, Top1-Acc: 97.9500, Top5-Acc: 99.9800
+2023-02-19 23:29:58:INFO:LR:0.008000, test_loss:0.069219, test_acc:97.9500
+2023-02-19 23:29:58:INFO:Training epoch:1, lr:0.000520, loss:2.309515, acc1:6.6406, acc5:50.7812
+2023-02-19 23:29:58:INFO:Reducer buckets have been rebuilt in this iteration.
+2023-02-19 23:29:58:INFO:Training epoch:1, lr:0.000918, loss:2.309622, acc1:7.2798, acc5:49.6094
+2023-02-19 23:29:58:INFO:Training epoch:1, lr:0.001317, loss:2.302641, acc1:10.1190, acc5:52.6042
+2023-02-19 23:29:59:INFO:Training epoch:1, lr:0.001716, loss:2.290715, acc1:15.1462, acc5:59.1104
+2023-02-19 23:29:59:INFO:Training epoch:1, lr:0.002114, loss:2.274422, acc1:20.6460, acc5:66.0537
+2023-02-19 23:29:59:INFO:Training epoch:1, lr:0.002513, loss:2.250829, acc1:28.0790, acc5:71.3925
+2023-02-19 23:29:59:INFO: Testing epoch: 1, Average loss: 1.9999, Top1-Acc: 69.7800, Top5-Acc: 96.7200
+2023-02-19 23:30:00:INFO:Training epoch:2, lr:0.002832, loss:1.999020, acc1:75.3906, acc5:96.4844
+2023-02-19 23:30:00:INFO:Training epoch:2, lr:0.003230, loss:1.881774, acc1:70.4545, acc5:97.6562
+2023-02-19 23:30:00:INFO:Training epoch:2, lr:0.003629, loss:1.682336, acc1:72.1168, acc5:97.9539
+2023-02-19 23:30:00:INFO:Training epoch:2, lr:0.004028, loss:1.433083, acc1:74.9748, acc5:98.2359
+2023-02-19 23:30:00:INFO:Training epoch:2, lr:0.004426, loss:1.225011, acc1:77.0198, acc5:98.4184
+2023-02-19 23:30:01:INFO:Training epoch:2, lr:0.004825, loss:1.074340, acc1:78.9828, acc5:98.5600
+2023-02-19 23:30:01:INFO: Testing epoch: 2, Average loss: 0.3507, Top1-Acc: 89.3100, Top5-Acc: 99.3800
+2023-02-19 23:30:02:INFO:Training epoch:3, lr:0.005144, loss:0.378555, acc1:87.5000, acc5:98.8281
+2023-02-19 23:30:02:INFO:Training epoch:3, lr:0.005542, loss:0.382594, acc1:88.6719, acc5:99.2188
+2023-02-19 23:30:02:INFO:Training epoch:3, lr:0.005941, loss:0.355002, acc1:89.2671, acc5:99.4420
+2023-02-19 23:30:02:INFO:Training epoch:3, lr:0.006340, loss:0.330391, acc1:90.1210, acc5:99.4834
+2023-02-19 23:30:02:INFO:Training epoch:3, lr:0.006738, loss:0.313492, acc1:90.6345, acc5:99.5617
+2023-02-19 23:30:02:INFO:Training epoch:3, lr:0.007137, loss:0.302950, acc1:90.8854, acc5:99.5787
+2023-02-19 23:30:03:INFO: Testing epoch: 3, Average loss: 0.2233, Top1-Acc: 93.1100, Top5-Acc: 99.8000
+2023-02-19 23:30:03:INFO:Training epoch:4, lr:0.007456, loss:0.168650, acc1:95.3125, acc5:99.6094
+2023-02-19 23:30:04:INFO:Training epoch:4, lr:0.007854, loss:0.229161, acc1:93.3239, acc5:99.5739
+2023-02-19 23:30:04:INFO:Training epoch:4, lr:0.008253, loss:0.229294, acc1:92.9501, acc5:99.5908
+2023-02-19 23:30:04:INFO:Training epoch:4, lr:0.008652, loss:0.224554, acc1:93.3216, acc5:99.6220
+2023-02-19 23:30:04:INFO:Training epoch:4, lr:0.009050, loss:0.212016, acc1:93.7881, acc5:99.6761
+2023-02-19 23:30:04:INFO:Training epoch:4, lr:0.009449, loss:0.201059, acc1:94.0947, acc5:99.7166
+2023-02-19 23:30:05:INFO: Testing epoch: 4, Average loss: 0.1350, Top1-Acc: 96.0600, Top5-Acc: 99.9000
+2023-02-19 23:30:05:INFO:Training epoch:5, lr:0.009768, loss:0.148360, acc1:94.9219, acc5:100.0000
+2023-02-19 23:30:05:INFO:Training epoch:5, lr:0.010166, loss:0.131474, acc1:96.1648, acc5:99.9290
+2023-02-19 23:30:05:INFO:Training epoch:5, lr:0.010565, loss:0.138625, acc1:96.0379, acc5:99.8884
+2023-02-19 23:30:05:INFO:Training epoch:5, lr:0.010964, loss:0.133706, acc1:96.1064, acc5:99.8866
+2023-02-19 23:30:06:INFO:Training epoch:5, lr:0.011362, loss:0.134063, acc1:96.1223, acc5:99.8857
+2023-02-19 23:30:06:INFO:Training epoch:5, lr:0.011761, loss:0.129159, acc1:96.2546, acc5:99.9004
+2023-02-19 23:30:06:INFO: Testing epoch: 5, Average loss: 0.0949, Top1-Acc: 97.2600, Top5-Acc: 99.9700
+2023-02-19 23:30:07:INFO:Training epoch:6, lr:0.011918, loss:0.110845, acc1:97.2656, acc5:100.0000
+2023-02-19 23:30:07:INFO:Training epoch:6, lr:0.011505, loss:0.095849, acc1:97.0881, acc5:99.9290
+2023-02-19 23:30:07:INFO:Training epoch:6, lr:0.011093, loss:0.099077, acc1:97.0052, acc5:99.9442
+2023-02-19 23:30:07:INFO:Training epoch:6, lr:0.010681, loss:0.098134, acc1:97.1144, acc5:99.9244
+2023-02-19 23:30:07:INFO:Training epoch:6, lr:0.010269, loss:0.098420, acc1:97.0941, acc5:99.9238
+2023-02-19 23:30:07:INFO:Training epoch:6, lr:0.009857, loss:0.097127, acc1:97.1124, acc5:99.9311
+2023-02-19 23:30:08:INFO: Testing epoch: 6, Average loss: 0.0773, Top1-Acc: 97.7900, Top5-Acc: 99.9700
+2023-02-19 23:30:08:INFO:Training epoch:7, lr:0.009527, loss:0.102008, acc1:96.8750, acc5:99.6094
+2023-02-19 23:30:09:INFO:Training epoch:7, lr:0.009115, loss:0.077104, acc1:97.7628, acc5:99.9645
+2023-02-19 23:30:09:INFO:Training epoch:7, lr:0.008703, loss:0.078344, acc1:97.6562, acc5:99.9442
+2023-02-19 23:30:09:INFO:Training epoch:7, lr:0.008291, loss:0.074473, acc1:97.7067, acc5:99.9496
+2023-02-19 23:30:09:INFO:Training epoch:7, lr:0.007879, loss:0.076068, acc1:97.6372, acc5:99.9524
+2023-02-19 23:30:09:INFO:Training epoch:7, lr:0.007466, loss:0.077204, acc1:97.6256, acc5:99.9464
+2023-02-19 23:30:10:INFO: Testing epoch: 7, Average loss: 0.0639, Top1-Acc: 98.1000, Top5-Acc: 99.9700
+2023-02-19 23:30:10:INFO:Training epoch:8, lr:0.007137, loss:0.041540, acc1:98.4375, acc5:100.0000
+2023-02-19 23:30:10:INFO:Training epoch:8, lr:0.006725, loss:0.062348, acc1:98.2244, acc5:100.0000
+2023-02-19 23:30:10:INFO:Training epoch:8, lr:0.006312, loss:0.070130, acc1:97.9911, acc5:99.9814
+2023-02-19 23:30:11:INFO:Training epoch:8, lr:0.005900, loss:0.069046, acc1:98.0343, acc5:99.9622
+2023-02-19 23:30:11:INFO:Training epoch:8, lr:0.005488, loss:0.066729, acc1:98.1040, acc5:99.9714
+2023-02-19 23:30:11:INFO:Training epoch:8, lr:0.005076, loss:0.066180, acc1:98.1158, acc5:99.9770
+2023-02-19 23:30:11:INFO: Testing epoch: 8, Average loss: 0.0617, Top1-Acc: 98.0100, Top5-Acc: 99.9800
+2023-02-19 23:30:12:INFO:Training epoch:9, lr:0.004746, loss:0.135298, acc1:97.2656, acc5:99.6094
+2023-02-19 23:30:12:INFO:Training epoch:9, lr:0.004334, loss:0.062237, acc1:98.1179, acc5:99.9290
+2023-02-19 23:30:12:INFO:Training epoch:9, lr:0.003922, loss:0.058196, acc1:98.3073, acc5:99.9628
+2023-02-19 23:30:12:INFO:Training epoch:9, lr:0.003510, loss:0.058092, acc1:98.2989, acc5:99.9748
+2023-02-19 23:30:12:INFO:Training epoch:9, lr:0.003098, loss:0.059062, acc1:98.3899, acc5:99.9619
+2023-02-19 23:30:12:INFO:Training epoch:9, lr:0.002686, loss:0.062184, acc1:98.2767, acc5:99.9464
+2023-02-19 23:30:13:INFO: Testing epoch: 9, Average loss: 0.0549, Top1-Acc: 98.3900, Top5-Acc: 100.0000
+2023-02-19 23:30:14:INFO:Training epoch:10, lr:0.002356, loss:0.033184, acc1:99.6094, acc5:100.0000
+2023-02-19 23:30:14:INFO:Training epoch:10, lr:0.001944, loss:0.048507, acc1:98.6151, acc5:100.0000
+2023-02-19 23:30:14:INFO:Training epoch:10, lr:0.001532, loss:0.046107, acc1:98.5305, acc5:100.0000
+2023-02-19 23:30:14:INFO:Training epoch:10, lr:0.001120, loss:0.047878, acc1:98.4627, acc5:100.0000
+2023-02-19 23:30:14:INFO:Training epoch:10, lr:0.000707, loss:0.052134, acc1:98.3613, acc5:99.9905
+2023-02-19 23:30:14:INFO:Training epoch:10, lr:0.000295, loss:0.055432, acc1:98.3073, acc5:99.9923
+2023-02-19 23:30:15:INFO: Testing epoch: 10, Average loss: 0.0537, Top1-Acc: 98.3400, Top5-Acc: 100.0000
+2023-02-19 23:30:15:INFO:LR:0.012000, test_loss:0.054949, test_acc:98.3900
+2023-02-19 23:30:15:INFO:Training epoch:1, lr:0.000693, loss:2.306351, acc1:14.8438, acc5:45.7031
+2023-02-19 23:30:15:INFO:Reducer buckets have been rebuilt in this iteration.
+2023-02-19 23:30:15:INFO:Training epoch:1, lr:0.001225, loss:2.298038, acc1:15.8381, acc5:52.9474
+2023-02-19 23:30:16:INFO:Training epoch:1, lr:0.001756, loss:2.283357, acc1:18.2850, acc5:60.3609
+2023-02-19 23:30:16:INFO:Training epoch:1, lr:0.002288, loss:2.259030, acc1:22.9461, acc5:69.5943
+2023-02-19 23:30:16:INFO:Training epoch:1, lr:0.002819, loss:2.223520, acc1:30.1448, acc5:75.3144
+2023-02-19 23:30:16:INFO:Training epoch:1, lr:0.003351, loss:2.163182, acc1:38.1970, acc5:79.6492
+2023-02-19 23:30:17:INFO: Testing epoch: 1, Average loss: 1.3348, Top1-Acc: 80.8600, Top5-Acc: 98.6700
+2023-02-19 23:30:17:INFO:Training epoch:2, lr:0.003776, loss:1.321487, acc1:80.4688, acc5:98.0469
+2023-02-19 23:30:17:INFO:Training epoch:2, lr:0.004307, loss:1.011221, acc1:82.3153, acc5:98.6861
+2023-02-19 23:30:17:INFO:Training epoch:2, lr:0.004839, loss:0.775440, acc1:84.5610, acc5:98.8095
+2023-02-19 23:30:17:INFO:Training epoch:2, lr:0.005370, loss:0.654035, acc1:85.7485, acc5:98.9793
+2023-02-19 23:30:18:INFO:Training epoch:2, lr:0.005902, loss:0.581769, acc1:86.5854, acc5:99.1330
+2023-02-19 23:30:18:INFO:Training epoch:2, lr:0.006433, loss:0.535055, acc1:87.2779, acc5:99.2034
+2023-02-19 23:30:18:INFO: Testing epoch: 2, Average loss: 0.2429, Top1-Acc: 93.0400, Top5-Acc: 99.6700
+2023-02-19 23:30:19:INFO:Training epoch:3, lr:0.006858, loss:0.252940, acc1:91.4062, acc5:99.6094
+2023-02-19 23:30:19:INFO:Training epoch:3, lr:0.007390, loss:0.273761, acc1:91.6193, acc5:99.6094
+2023-02-19 23:30:19:INFO:Training epoch:3, lr:0.007921, loss:0.253628, acc1:92.0201, acc5:99.7582
+2023-02-19 23:30:19:INFO:Training epoch:3, lr:0.008453, loss:0.235327, acc1:92.7419, acc5:99.7354
+2023-02-19 23:30:19:INFO:Training epoch:3, lr:0.008984, loss:0.224366, acc1:93.1784, acc5:99.7713
+2023-02-19 23:30:19:INFO:Training epoch:3, lr:0.009516, loss:0.216700, acc1:93.3977, acc5:99.7702
+2023-02-19 23:30:20:INFO: Testing epoch: 3, Average loss: 0.1561, Top1-Acc: 95.3300, Top5-Acc: 99.9000
+2023-02-19 23:30:21:INFO:Training epoch:4, lr:0.009941, loss:0.116332, acc1:96.0938, acc5:99.6094
+2023-02-19 23:30:21:INFO:Training epoch:4, lr:0.010473, loss:0.173416, acc1:94.7798, acc5:99.7159
+2023-02-19 23:30:21:INFO:Training epoch:4, lr:0.011004, loss:0.168270, acc1:94.7545, acc5:99.7768
+2023-02-19 23:30:21:INFO:Training epoch:4, lr:0.011536, loss:0.164758, acc1:94.9093, acc5:99.8362
+2023-02-19 23:30:21:INFO:Training epoch:4, lr:0.012067, loss:0.156619, acc1:95.2934, acc5:99.8476
+2023-02-19 23:30:21:INFO:Training epoch:4, lr:0.012598, loss:0.148628, acc1:95.5193, acc5:99.8698
+2023-02-19 23:30:22:INFO: Testing epoch: 4, Average loss: 0.0975, Top1-Acc: 97.2200, Top5-Acc: 99.9700
+2023-02-19 23:30:22:INFO:Training epoch:5, lr:0.013024, loss:0.089287, acc1:97.2656, acc5:100.0000
+2023-02-19 23:30:22:INFO:Training epoch:5, lr:0.013555, loss:0.095205, acc1:97.3011, acc5:99.8935
+2023-02-19 23:30:22:INFO:Training epoch:5, lr:0.014087, loss:0.103195, acc1:97.2656, acc5:99.9070
+2023-02-19 23:30:23:INFO:Training epoch:5, lr:0.014618, loss:0.100185, acc1:97.2530, acc5:99.9118
+2023-02-19 23:30:23:INFO:Training epoch:5, lr:0.015150, loss:0.102191, acc1:97.0751, acc5:99.9143
+2023-02-19 23:30:23:INFO:Training epoch:5, lr:0.015681, loss:0.099561, acc1:97.0895, acc5:99.9157
+2023-02-19 23:30:24:INFO: Testing epoch: 5, Average loss: 0.0744, Top1-Acc: 97.6300, Top5-Acc: 99.9900
+2023-02-19 23:30:24:INFO:Training epoch:6, lr:0.015890, loss:0.102085, acc1:97.2656, acc5:100.0000
+2023-02-19 23:30:24:INFO:Training epoch:6, lr:0.015341, loss:0.082503, acc1:97.5852, acc5:99.9645
+2023-02-19 23:30:24:INFO:Training epoch:6, lr:0.014791, loss:0.084818, acc1:97.3958, acc5:99.9628
+2023-02-19 23:30:24:INFO:Training epoch:6, lr:0.014242, loss:0.083344, acc1:97.4294, acc5:99.9496
+2023-02-19 23:30:25:INFO:Training epoch:6, lr:0.013692, loss:0.083198, acc1:97.4943, acc5:99.9524
+2023-02-19 23:30:25:INFO:Training epoch:6, lr:0.013143, loss:0.081955, acc1:97.5107, acc5:99.9617
+2023-02-19 23:30:25:INFO: Testing epoch: 6, Average loss: 0.0662, Top1-Acc: 97.8800, Top5-Acc: 99.9800
+2023-02-19 23:30:26:INFO:Training epoch:7, lr:0.012703, loss:0.087925, acc1:98.0469, acc5:100.0000
+2023-02-19 23:30:26:INFO:Training epoch:7, lr:0.012153, loss:0.068535, acc1:97.9403, acc5:100.0000
+2023-02-19 23:30:26:INFO:Training epoch:7, lr:0.011604, loss:0.066236, acc1:97.8609, acc5:100.0000
+2023-02-19 23:30:26:INFO:Training epoch:7, lr:0.011054, loss:0.063068, acc1:97.9461, acc5:99.9748
+2023-02-19 23:30:26:INFO:Training epoch:7, lr:0.010505, loss:0.064748, acc1:97.8944, acc5:99.9714
+2023-02-19 23:30:26:INFO:Training epoch:7, lr:0.009955, loss:0.065269, acc1:97.8631, acc5:99.9694
+2023-02-19 23:30:27:INFO: Testing epoch: 7, Average loss: 0.0511, Top1-Acc: 98.4700, Top5-Acc: 99.9900
+2023-02-19 23:30:27:INFO:Training epoch:8, lr:0.009516, loss:0.028312, acc1:99.6094, acc5:100.0000
+2023-02-19 23:30:28:INFO:Training epoch:8, lr:0.008966, loss:0.050138, acc1:98.7926, acc5:99.9645
+2023-02-19 23:30:28:INFO:Training epoch:8, lr:0.008417, loss:0.057220, acc1:98.4375, acc5:99.9628
+2023-02-19 23:30:28:INFO:Training epoch:8, lr:0.007867, loss:0.058355, acc1:98.4627, acc5:99.9622
+2023-02-19 23:30:28:INFO:Training epoch:8, lr:0.007318, loss:0.056265, acc1:98.4661, acc5:99.9619
+2023-02-19 23:30:28:INFO:Training epoch:8, lr:0.006768, loss:0.056412, acc1:98.3992, acc5:99.9694
+2023-02-19 23:30:29:INFO: Testing epoch: 8, Average loss: 0.0529, Top1-Acc: 98.3300, Top5-Acc: 99.9800
+2023-02-19 23:30:29:INFO:Training epoch:9, lr:0.006328, loss:0.099143, acc1:97.6562, acc5:99.6094
+2023-02-19 23:30:29:INFO:Training epoch:9, lr:0.005779, loss:0.050423, acc1:98.4020, acc5:99.9290
+2023-02-19 23:30:29:INFO:Training epoch:9, lr:0.005229, loss:0.049751, acc1:98.3817, acc5:99.9628
+2023-02-19 23:30:30:INFO:Training epoch:9, lr:0.004680, loss:0.049612, acc1:98.3745, acc5:99.9748
+2023-02-19 23:30:30:INFO:Training epoch:9, lr:0.004130, loss:0.049866, acc1:98.4947, acc5:99.9524
+2023-02-19 23:30:30:INFO:Training epoch:9, lr:0.003581, loss:0.051621, acc1:98.4298, acc5:99.9540
+2023-02-19 23:30:30:INFO: Testing epoch: 9, Average loss: 0.0458, Top1-Acc: 98.5600, Top5-Acc: 99.9900
+2023-02-19 23:30:31:INFO:Training epoch:10, lr:0.003141, loss:0.033134, acc1:99.2188, acc5:100.0000
+2023-02-19 23:30:31:INFO:Training epoch:10, lr:0.002592, loss:0.040792, acc1:98.7571, acc5:100.0000
+2023-02-19 23:30:31:INFO:Training epoch:10, lr:0.002042, loss:0.036268, acc1:98.9397, acc5:100.0000
+2023-02-19 23:30:31:INFO:Training epoch:10, lr:0.001493, loss:0.037599, acc1:98.9163, acc5:100.0000
+2023-02-19 23:30:31:INFO:Training epoch:10, lr:0.000943, loss:0.042111, acc1:98.8281, acc5:99.9809
+2023-02-19 23:30:32:INFO:Training epoch:10, lr:0.000394, loss:0.045253, acc1:98.7286, acc5:99.9847
+2023-02-19 23:30:32:INFO: Testing epoch: 10, Average loss: 0.0449, Top1-Acc: 98.6000, Top5-Acc: 100.0000
+2023-02-19 23:30:32:INFO:LR:0.016000, test_loss:0.044877, test_acc:98.6000
+2023-02-19 23:30:33:INFO:Training epoch:1, lr:0.000866, loss:2.304557, acc1:6.6406, acc5:51.5625
+2023-02-19 23:30:33:INFO:Reducer buckets have been rebuilt in this iteration.
+2023-02-19 23:30:33:INFO:Training epoch:1, lr:0.001531, loss:2.297960, acc1:8.3807, acc5:57.5284
+2023-02-19 23:30:33:INFO:Training epoch:1, lr:0.002195, loss:2.282362, acc1:13.6905, acc5:63.5603
+2023-02-19 23:30:33:INFO:Training epoch:1, lr:0.002860, loss:2.254404, acc1:24.9496, acc5:70.0857
+2023-02-19 23:30:33:INFO:Training epoch:1, lr:0.003524, loss:2.210753, acc1:34.2511, acc5:75.6193
+2023-02-19 23:30:33:INFO:Training epoch:1, lr:0.004188, loss:2.132258, acc1:42.4096, acc5:79.9479
+2023-02-19 23:30:34:INFO: Testing epoch: 1, Average loss: 1.0173, Top1-Acc: 83.8500, Top5-Acc: 98.9900
+2023-02-19 23:30:34:INFO:Training epoch:2, lr:0.004720, loss:1.013810, acc1:83.2031, acc5:98.0469
+2023-02-19 23:30:34:INFO:Training epoch:2, lr:0.005384, loss:0.746947, acc1:83.7358, acc5:98.5085
+2023-02-19 23:30:35:INFO:Training epoch:2, lr:0.006048, loss:0.593135, acc1:85.5097, acc5:98.8095
+2023-02-19 23:30:35:INFO:Training epoch:2, lr:0.006713, loss:0.520300, acc1:86.6305, acc5:99.0675
+2023-02-19 23:30:35:INFO:Training epoch:2, lr:0.007377, loss:0.476190, acc1:87.4809, acc5:99.1521
+2023-02-19 23:30:35:INFO:Training epoch:2, lr:0.008042, loss:0.445651, acc1:88.0974, acc5:99.2188
+2023-02-19 23:30:36:INFO: Testing epoch: 2, Average loss: 0.2306, Top1-Acc: 93.2300, Top5-Acc: 99.7500
+2023-02-19 23:30:36:INFO:Training epoch:3, lr:0.008573, loss:0.261837, acc1:91.4062, acc5:99.2188
+2023-02-19 23:30:36:INFO:Training epoch:3, lr:0.009237, loss:0.260173, acc1:92.7912, acc5:99.6094
+2023-02-19 23:30:36:INFO:Training epoch:3, lr:0.009902, loss:0.237071, acc1:93.1548, acc5:99.7582
+2023-02-19 23:30:36:INFO:Training epoch:3, lr:0.010566, loss:0.219835, acc1:93.5988, acc5:99.7732
+2023-02-19 23:30:37:INFO:Training epoch:3, lr:0.011230, loss:0.210637, acc1:93.8357, acc5:99.8285
+2023-02-19 23:30:37:INFO:Training epoch:3, lr:0.011895, loss:0.202821, acc1:94.0717, acc5:99.8315
+2023-02-19 23:30:37:INFO: Testing epoch: 3, Average loss: 0.1337, Top1-Acc: 96.0000, Top5-Acc: 99.9300
+2023-02-19 23:30:38:INFO:Training epoch:4, lr:0.012426, loss:0.109459, acc1:96.4844, acc5:100.0000
+2023-02-19 23:30:38:INFO:Training epoch:4, lr:0.013091, loss:0.157745, acc1:95.3835, acc5:99.7159
+2023-02-19 23:30:38:INFO:Training epoch:4, lr:0.013755, loss:0.154553, acc1:95.3125, acc5:99.7768
+2023-02-19 23:30:38:INFO:Training epoch:4, lr:0.014419, loss:0.149591, acc1:95.5519, acc5:99.8110
+2023-02-19 23:30:38:INFO:Training epoch:4, lr:0.015084, loss:0.142009, acc1:95.8937, acc5:99.8380
+2023-02-19 23:30:38:INFO:Training epoch:4, lr:0.015748, loss:0.134947, acc1:96.1320, acc5:99.8545
+2023-02-19 23:30:39:INFO: Testing epoch: 4, Average loss: 0.0857, Top1-Acc: 97.3300, Top5-Acc: 99.9600
+2023-02-19 23:30:39:INFO:Training epoch:5, lr:0.016280, loss:0.080185, acc1:96.8750, acc5:100.0000
+2023-02-19 23:30:40:INFO:Training epoch:5, lr:0.016944, loss:0.085283, acc1:97.2301, acc5:99.9290
+2023-02-19 23:30:40:INFO:Training epoch:5, lr:0.017608, loss:0.092331, acc1:97.2284, acc5:99.9256
+2023-02-19 23:30:40:INFO:Training epoch:5, lr:0.018273, loss:0.088917, acc1:97.3664, acc5:99.9370
+2023-02-19 23:30:40:INFO:Training epoch:5, lr:0.018937, loss:0.091107, acc1:97.2942, acc5:99.9428
+2023-02-19 23:30:40:INFO:Training epoch:5, lr:0.019601, loss:0.088764, acc1:97.3729, acc5:99.9311
+2023-02-19 23:30:41:INFO: Testing epoch: 5, Average loss: 0.0639, Top1-Acc: 98.0000, Top5-Acc: 99.9800
+2023-02-19 23:30:41:INFO:Training epoch:6, lr:0.019863, loss:0.092016, acc1:97.2656, acc5:100.0000
+2023-02-19 23:30:41:INFO:Training epoch:6, lr:0.019176, loss:0.070152, acc1:97.8693, acc5:99.9645
+2023-02-19 23:30:41:INFO:Training epoch:6, lr:0.018489, loss:0.074273, acc1:97.7493, acc5:99.9814
+2023-02-19 23:30:41:INFO:Training epoch:6, lr:0.017802, loss:0.073138, acc1:97.7319, acc5:99.9748
+2023-02-19 23:30:42:INFO:Training epoch:6, lr:0.017115, loss:0.072987, acc1:97.7515, acc5:99.9809
+2023-02-19 23:30:42:INFO:Training epoch:6, lr:0.016428, loss:0.072657, acc1:97.7635, acc5:99.9847
+2023-02-19 23:30:42:INFO: Testing epoch: 6, Average loss: 0.0590, Top1-Acc: 98.2300, Top5-Acc: 99.9900
+2023-02-19 23:30:43:INFO:Training epoch:7, lr:0.015879, loss:0.076271, acc1:98.4375, acc5:100.0000
+2023-02-19 23:30:43:INFO:Training epoch:7, lr:0.015192, loss:0.057492, acc1:98.3310, acc5:100.0000
+2023-02-19 23:30:43:INFO:Training epoch:7, lr:0.014505, loss:0.055633, acc1:98.2329, acc5:100.0000
+2023-02-19 23:30:43:INFO:Training epoch:7, lr:0.013818, loss:0.053642, acc1:98.2737, acc5:100.0000
+2023-02-19 23:30:43:INFO:Training epoch:7, lr:0.013131, loss:0.054807, acc1:98.2184, acc5:99.9905
+2023-02-19 23:30:43:INFO:Training epoch:7, lr:0.012444, loss:0.055479, acc1:98.2077, acc5:99.9847
+2023-02-19 23:30:44:INFO: Testing epoch: 7, Average loss: 0.0453, Top1-Acc: 98.6000, Top5-Acc: 99.9900
+2023-02-19 23:30:44:INFO:Training epoch:8, lr:0.011895, loss:0.032437, acc1:99.2188, acc5:100.0000
+2023-02-19 23:30:44:INFO:Training epoch:8, lr:0.011208, loss:0.040033, acc1:98.8281, acc5:100.0000
+2023-02-19 23:30:45:INFO:Training epoch:8, lr:0.010521, loss:0.047682, acc1:98.6979, acc5:100.0000
+2023-02-19 23:30:45:INFO:Training epoch:8, lr:0.009834, loss:0.048620, acc1:98.7273, acc5:99.9874
+2023-02-19 23:30:45:INFO:Training epoch:8, lr:0.009147, loss:0.048330, acc1:98.7233, acc5:99.9905
+2023-02-19 23:30:45:INFO:Training epoch:8, lr:0.008460, loss:0.048486, acc1:98.6673, acc5:99.9923
+2023-02-19 23:30:45:INFO: Testing epoch: 8, Average loss: 0.0476, Top1-Acc: 98.5000, Top5-Acc: 99.9900
+2023-02-19 23:30:46:INFO:Training epoch:9, lr:0.007911, loss:0.094713, acc1:97.6562, acc5:100.0000
+2023-02-19 23:30:46:INFO:Training epoch:9, lr:0.007224, loss:0.044605, acc1:98.7571, acc5:99.9645
+2023-02-19 23:30:46:INFO:Training epoch:9, lr:0.006537, loss:0.042499, acc1:98.7351, acc5:99.9814
+2023-02-19 23:30:46:INFO:Training epoch:9, lr:0.005850, loss:0.042026, acc1:98.7147, acc5:99.9874
+2023-02-19 23:30:46:INFO:Training epoch:9, lr:0.005163, loss:0.041768, acc1:98.7614, acc5:99.9809
+2023-02-19 23:30:47:INFO:Training epoch:9, lr:0.004476, loss:0.044273, acc1:98.7286, acc5:99.9694
+2023-02-19 23:30:47:INFO: Testing epoch: 9, Average loss: 0.0391, Top1-Acc: 98.7300, Top5-Acc: 99.9900
+2023-02-19 23:30:48:INFO:Training epoch:10, lr:0.003927, loss:0.022118, acc1:99.6094, acc5:100.0000
+2023-02-19 23:30:48:INFO:Training epoch:10, lr:0.003240, loss:0.034447, acc1:99.0767, acc5:100.0000
+2023-02-19 23:30:48:INFO:Training epoch:10, lr:0.002553, loss:0.031597, acc1:99.1071, acc5:100.0000
+2023-02-19 23:30:48:INFO:Training epoch:10, lr:0.001866, loss:0.031741, acc1:99.0801, acc5:100.0000
+2023-02-19 23:30:48:INFO:Training epoch:10, lr:0.001179, loss:0.035440, acc1:98.9996, acc5:100.0000
+2023-02-19 23:30:48:INFO:Training epoch:10, lr:0.000492, loss:0.038160, acc1:98.9200, acc5:100.0000
+2023-02-19 23:30:49:INFO: Testing epoch: 10, Average loss: 0.0384, Top1-Acc: 98.7500, Top5-Acc: 99.9900
+2023-02-19 23:30:49:INFO:LR:0.020000, test_loss:0.038394, test_acc:98.7500
+2023-02-19 23:30:49:INFO:Training epoch:1, lr:0.001040, loss:2.305469, acc1:11.3281, acc5:49.6094
+2023-02-19 23:30:49:INFO:Reducer buckets have been rebuilt in this iteration.
+2023-02-19 23:30:49:INFO:Training epoch:1, lr:0.001837, loss:2.297174, acc1:15.2344, acc5:51.3849
+2023-02-19 23:30:50:INFO:Training epoch:1, lr:0.002634, loss:2.281706, acc1:19.1964, acc5:59.3936
+2023-02-19 23:30:50:INFO:Training epoch:1, lr:0.003431, loss:2.253144, acc1:26.7389, acc5:67.2883
+2023-02-19 23:30:50:INFO:Training epoch:1, lr:0.004229, loss:2.208757, acc1:33.4127, acc5:72.8182
+2023-02-19 23:30:50:INFO:Training epoch:1, lr:0.005026, loss:2.119982, acc1:40.5944, acc5:77.6195
+2023-02-19 23:30:51:INFO: Testing epoch: 1, Average loss: 0.9265, Top1-Acc: 80.2500, Top5-Acc: 98.7000
+2023-02-19 23:30:51:INFO:Training epoch:2, lr:0.005664, loss:0.898654, acc1:80.8594, acc5:97.2656
+2023-02-19 23:30:51:INFO:Training epoch:2, lr:0.006461, loss:0.703518, acc1:81.9247, acc5:98.2955
+2023-02-19 23:30:51:INFO:Training epoch:2, lr:0.007258, loss:0.580486, acc1:84.4308, acc5:98.5305
+2023-02-19 23:30:51:INFO:Training epoch:2, lr:0.008055, loss:0.525554, acc1:85.2823, acc5:98.7903
+2023-02-19 23:30:52:INFO:Training epoch:2, lr:0.008853, loss:0.480859, acc1:86.3377, acc5:98.9615
+2023-02-19 23:30:52:INFO:Training epoch:2, lr:0.009650, loss:0.444333, acc1:87.3162, acc5:99.0809
+2023-02-19 23:30:52:INFO: Testing epoch: 2, Average loss: 0.2312, Top1-Acc: 92.9700, Top5-Acc: 99.7700
+2023-02-19 23:30:53:INFO:Training epoch:3, lr:0.010288, loss:0.268078, acc1:92.9688, acc5:99.6094
+2023-02-19 23:30:53:INFO:Training epoch:3, lr:0.011085, loss:0.259327, acc1:92.2230, acc5:99.6449
+2023-02-19 23:30:53:INFO:Training epoch:3, lr:0.011882, loss:0.239948, acc1:92.7083, acc5:99.7582
+2023-02-19 23:30:53:INFO:Training epoch:3, lr:0.012679, loss:0.221459, acc1:93.3468, acc5:99.7732
+2023-02-19 23:30:53:INFO:Training epoch:3, lr:0.013477, loss:0.208046, acc1:93.7786, acc5:99.8095
+2023-02-19 23:30:53:INFO:Training epoch:3, lr:0.014274, loss:0.198976, acc1:94.0028, acc5:99.8085
+2023-02-19 23:30:54:INFO: Testing epoch: 3, Average loss: 0.1193, Top1-Acc: 96.4600, Top5-Acc: 99.9100
+2023-02-19 23:30:54:INFO:Training epoch:4, lr:0.014912, loss:0.112259, acc1:95.7031, acc5:100.0000
+2023-02-19 23:30:55:INFO:Training epoch:4, lr:0.015709, loss:0.147984, acc1:95.4190, acc5:99.7514
+2023-02-19 23:30:55:INFO:Training epoch:4, lr:0.016506, loss:0.143475, acc1:95.5915, acc5:99.7954
+2023-02-19 23:30:55:INFO:Training epoch:4, lr:0.017303, loss:0.141667, acc1:95.6023, acc5:99.8488
+2023-02-19 23:30:55:INFO:Training epoch:4, lr:0.018100, loss:0.134734, acc1:95.8651, acc5:99.8666
+2023-02-19 23:30:55:INFO:Training epoch:4, lr:0.018898, loss:0.126998, acc1:96.1474, acc5:99.8851
+2023-02-19 23:30:56:INFO: Testing epoch: 4, Average loss: 0.0748, Top1-Acc: 97.7900, Top5-Acc: 99.9700
+2023-02-19 23:30:56:INFO:Training epoch:5, lr:0.019536, loss:0.061127, acc1:98.0469, acc5:100.0000
+2023-02-19 23:30:56:INFO:Training epoch:5, lr:0.020333, loss:0.073640, acc1:97.5852, acc5:99.9290
+2023-02-19 23:30:56:INFO:Training epoch:5, lr:0.021130, loss:0.083926, acc1:97.5074, acc5:99.9256
+2023-02-19 23:30:56:INFO:Training epoch:5, lr:0.021927, loss:0.082553, acc1:97.5932, acc5:99.9244
+2023-02-19 23:30:57:INFO:Training epoch:5, lr:0.022724, loss:0.082660, acc1:97.5800, acc5:99.9333
+2023-02-19 23:30:57:INFO:Training epoch:5, lr:0.023522, loss:0.079933, acc1:97.6562, acc5:99.9311
+2023-02-19 23:30:57:INFO: Testing epoch: 5, Average loss: 0.0550, Top1-Acc: 98.2500, Top5-Acc: 100.0000
+2023-02-19 23:30:58:INFO:Training epoch:6, lr:0.023835, loss:0.073899, acc1:97.2656, acc5:100.0000
+2023-02-19 23:30:58:INFO:Training epoch:6, lr:0.023011, loss:0.060160, acc1:98.1889, acc5:99.9645
+2023-02-19 23:30:58:INFO:Training epoch:6, lr:0.022187, loss:0.063581, acc1:98.0841, acc5:99.9628
+2023-02-19 23:30:58:INFO:Training epoch:6, lr:0.021362, loss:0.062501, acc1:98.0847, acc5:99.9622
+2023-02-19 23:30:58:INFO:Training epoch:6, lr:0.020538, loss:0.062885, acc1:98.1040, acc5:99.9619
+2023-02-19 23:30:58:INFO:Training epoch:6, lr:0.019714, loss:0.062958, acc1:98.0852, acc5:99.9694
+2023-02-19 23:30:59:INFO: Testing epoch: 6, Average loss: 0.0514, Top1-Acc: 98.3300, Top5-Acc: 99.9900
+2023-02-19 23:31:00:INFO:Training epoch:7, lr:0.019054, loss:0.063566, acc1:98.4375, acc5:100.0000
+2023-02-19 23:31:00:INFO:Training epoch:7, lr:0.018230, loss:0.046710, acc1:98.5795, acc5:100.0000
+2023-02-19 23:31:00:INFO:Training epoch:7, lr:0.017406, loss:0.046478, acc1:98.4933, acc5:100.0000
+2023-02-19 23:31:00:INFO:Training epoch:7, lr:0.016582, loss:0.044280, acc1:98.5257, acc5:100.0000
+2023-02-19 23:31:00:INFO:Training epoch:7, lr:0.015757, loss:0.044452, acc1:98.5328, acc5:100.0000
+2023-02-19 23:31:00:INFO:Training epoch:7, lr:0.014933, loss:0.045081, acc1:98.5064, acc5:100.0000
+2023-02-19 23:31:01:INFO: Testing epoch: 7, Average loss: 0.0405, Top1-Acc: 98.7100, Top5-Acc: 100.0000
+2023-02-19 23:31:01:INFO:Training epoch:8, lr:0.014274, loss:0.024279, acc1:99.2188, acc5:100.0000
+2023-02-19 23:31:01:INFO:Training epoch:8, lr:0.013449, loss:0.033576, acc1:98.9347, acc5:100.0000
+2023-02-19 23:31:01:INFO:Training epoch:8, lr:0.012625, loss:0.040296, acc1:98.7909, acc5:99.9814
+2023-02-19 23:31:02:INFO:Training epoch:8, lr:0.011801, loss:0.042011, acc1:98.8029, acc5:99.9874
+2023-02-19 23:31:02:INFO:Training epoch:8, lr:0.010976, loss:0.040906, acc1:98.8281, acc5:99.9905
+2023-02-19 23:31:02:INFO:Training epoch:8, lr:0.010152, loss:0.041541, acc1:98.7592, acc5:99.9923
+2023-02-19 23:31:03:INFO: Testing epoch: 8, Average loss: 0.0439, Top1-Acc: 98.5000, Top5-Acc: 99.9900
+2023-02-19 23:31:03:INFO:Training epoch:9, lr:0.009493, loss:0.105092, acc1:96.8750, acc5:100.0000
+2023-02-19 23:31:03:INFO:Training epoch:9, lr:0.008668, loss:0.040188, acc1:98.6861, acc5:100.0000
+2023-02-19 23:31:03:INFO:Training epoch:9, lr:0.007844, loss:0.038062, acc1:98.8095, acc5:100.0000
+2023-02-19 23:31:03:INFO:Training epoch:9, lr:0.007020, loss:0.036625, acc1:98.7903, acc5:100.0000
+2023-02-19 23:31:03:INFO:Training epoch:9, lr:0.006196, loss:0.037061, acc1:98.8662, acc5:99.9809
+2023-02-19 23:31:04:INFO:Training epoch:9, lr:0.005371, loss:0.039149, acc1:98.8281, acc5:99.9770
+2023-02-19 23:31:04:INFO: Testing epoch: 9, Average loss: 0.0345, Top1-Acc: 98.7400, Top5-Acc: 100.0000
+2023-02-19 23:31:05:INFO:Training epoch:10, lr:0.004712, loss:0.016432, acc1:99.6094, acc5:100.0000
+2023-02-19 23:31:05:INFO:Training epoch:10, lr:0.003888, loss:0.028305, acc1:99.1477, acc5:100.0000
+2023-02-19 23:31:05:INFO:Training epoch:10, lr:0.003063, loss:0.025961, acc1:99.3118, acc5:100.0000
+2023-02-19 23:31:05:INFO:Training epoch:10, lr:0.002239, loss:0.026706, acc1:99.2314, acc5:100.0000
+2023-02-19 23:31:05:INFO:Training epoch:10, lr:0.001415, loss:0.030245, acc1:99.1616, acc5:99.9905
+2023-02-19 23:31:05:INFO:Training epoch:10, lr:0.000591, loss:0.032490, acc1:99.1039, acc5:99.9923
+2023-02-19 23:31:06:INFO: Testing epoch: 10, Average loss: 0.0345, Top1-Acc: 98.7200, Top5-Acc: 100.0000
+2023-02-19 23:31:06:INFO:LR:0.024000, test_loss:0.034535, test_acc:98.7400
+2023-02-19 23:31:06:INFO:Training epoch:1, lr:0.001213, loss:2.319277, acc1:12.5000, acc5:48.0469
+2023-02-19 23:31:06:INFO:Reducer buckets have been rebuilt in this iteration.
+2023-02-19 23:31:07:INFO:Training epoch:1, lr:0.002143, loss:2.304381, acc1:14.5952, acc5:55.6108
+2023-02-19 23:31:07:INFO:Training epoch:1, lr:0.003073, loss:2.282205, acc1:20.1265, acc5:65.7924
+2023-02-19 23:31:07:INFO:Training epoch:1, lr:0.004003, loss:2.245983, acc1:29.2339, acc5:74.5212
+2023-02-19 23:31:07:INFO:Training epoch:1, lr:0.004933, loss:2.177667, acc1:39.0434, acc5:79.2683
+2023-02-19 23:31:07:INFO:Training epoch:1, lr:0.005864, loss:2.024531, acc1:46.3771, acc5:82.9121
+2023-02-19 23:31:08:INFO: Testing epoch: 1, Average loss: 0.5503, Top1-Acc: 83.6000, Top5-Acc: 99.0100
+2023-02-19 23:31:08:INFO:Training epoch:2, lr:0.006608, loss:0.549812, acc1:85.9375, acc5:98.0469
+2023-02-19 23:31:08:INFO:Training epoch:2, lr:0.007538, loss:0.492168, acc1:85.2983, acc5:98.8281
+2023-02-19 23:31:08:INFO:Training epoch:2, lr:0.008468, loss:0.437262, acc1:86.7560, acc5:99.1257
+2023-02-19 23:31:09:INFO:Training epoch:2, lr:0.009398, loss:0.417131, acc1:87.4118, acc5:99.2440
+2023-02-19 23:31:09:INFO:Training epoch:2, lr:0.010328, loss:0.386135, acc1:88.4909, acc5:99.3712
+2023-02-19 23:31:09:INFO:Training epoch:2, lr:0.011258, loss:0.363479, acc1:89.2770, acc5:99.4409
+2023-02-19 23:31:09:INFO: Testing epoch: 2, Average loss: 0.1899, Top1-Acc: 94.6400, Top5-Acc: 99.8400
+2023-02-19 23:31:10:INFO:Training epoch:3, lr:0.012002, loss:0.204622, acc1:92.9688, acc5:99.6094
+2023-02-19 23:31:10:INFO:Training epoch:3, lr:0.012932, loss:0.223449, acc1:93.3949, acc5:99.7869
+2023-02-19 23:31:10:INFO:Training epoch:3, lr:0.013862, loss:0.205681, acc1:93.7314, acc5:99.8326
+2023-02-19 23:31:10:INFO:Training epoch:3, lr:0.014793, loss:0.189150, acc1:94.2414, acc5:99.8110
+2023-02-19 23:31:10:INFO:Training epoch:3, lr:0.015723, loss:0.176456, acc1:94.6742, acc5:99.8571
+2023-02-19 23:31:11:INFO:Training epoch:3, lr:0.016653, loss:0.169042, acc1:94.9525, acc5:99.8468
+2023-02-19 23:31:11:INFO: Testing epoch: 3, Average loss: 0.1020, Top1-Acc: 97.1100, Top5-Acc: 99.9500
+2023-02-19 23:31:12:INFO:Training epoch:4, lr:0.017397, loss:0.097219, acc1:97.2656, acc5:100.0000
+2023-02-19 23:31:12:INFO:Training epoch:4, lr:0.018327, loss:0.135172, acc1:96.2358, acc5:99.8935
+2023-02-19 23:31:12:INFO:Training epoch:4, lr:0.019257, loss:0.129425, acc1:96.1310, acc5:99.8698
+2023-02-19 23:31:12:INFO:Training epoch:4, lr:0.020187, loss:0.129093, acc1:96.1190, acc5:99.8866
+2023-02-19 23:31:12:INFO:Training epoch:4, lr:0.021117, loss:0.122613, acc1:96.4272, acc5:99.9047
+2023-02-19 23:31:12:INFO:Training epoch:4, lr:0.022047, loss:0.115129, acc1:96.6605, acc5:99.9157
+2023-02-19 23:31:13:INFO: Testing epoch: 4, Average loss: 0.0717, Top1-Acc: 97.8800, Top5-Acc: 99.9800
+2023-02-19 23:31:13:INFO:Training epoch:5, lr:0.022791, loss:0.062044, acc1:98.0469, acc5:100.0000
+2023-02-19 23:31:13:INFO:Training epoch:5, lr:0.023722, loss:0.067730, acc1:98.1179, acc5:99.9290
+2023-02-19 23:31:14:INFO:Training epoch:5, lr:0.024652, loss:0.074901, acc1:97.9725, acc5:99.9442
+2023-02-19 23:31:14:INFO:Training epoch:5, lr:0.025582, loss:0.074256, acc1:97.9083, acc5:99.9370
+2023-02-19 23:31:14:INFO:Training epoch:5, lr:0.026512, loss:0.076116, acc1:97.7706, acc5:99.9524
+2023-02-19 23:31:14:INFO:Training epoch:5, lr:0.027442, loss:0.073707, acc1:97.8094, acc5:99.9464
+2023-02-19 23:31:15:INFO: Testing epoch: 5, Average loss: 0.0527, Top1-Acc: 98.3200, Top5-Acc: 100.0000
+2023-02-19 23:31:15:INFO:Training epoch:6, lr:0.027808, loss:0.067091, acc1:98.4375, acc5:100.0000
+2023-02-19 23:31:15:INFO:Training epoch:6, lr:0.026846, loss:0.062035, acc1:98.2599, acc5:99.9645
+2023-02-19 23:31:15:INFO:Training epoch:6, lr:0.025884, loss:0.065649, acc1:98.0841, acc5:99.9442
+2023-02-19 23:31:15:INFO:Training epoch:6, lr:0.024923, loss:0.063630, acc1:98.0595, acc5:99.9496
+2023-02-19 23:31:15:INFO:Training epoch:6, lr:0.023961, loss:0.062650, acc1:98.1326, acc5:99.9524
+2023-02-19 23:31:16:INFO:Training epoch:6, lr:0.022999, loss:0.061840, acc1:98.1618, acc5:99.9617
+2023-02-19 23:31:16:INFO: Testing epoch: 6, Average loss: 0.0443, Top1-Acc: 98.5500, Top5-Acc: 99.9800
+2023-02-19 23:31:17:INFO:Training epoch:7, lr:0.022230, loss:0.055802, acc1:98.0469, acc5:100.0000
+2023-02-19 23:31:17:INFO:Training epoch:7, lr:0.021268, loss:0.045201, acc1:98.5085, acc5:100.0000
+2023-02-19 23:31:17:INFO:Training epoch:7, lr:0.020307, loss:0.046092, acc1:98.4561, acc5:100.0000
+2023-02-19 23:31:17:INFO:Training epoch:7, lr:0.019345, loss:0.043788, acc1:98.4879, acc5:100.0000
+2023-02-19 23:31:17:INFO:Training epoch:7, lr:0.018383, loss:0.044530, acc1:98.5137, acc5:100.0000
+2023-02-19 23:31:17:INFO:Training epoch:7, lr:0.017422, loss:0.044006, acc1:98.5677, acc5:100.0000
+2023-02-19 23:31:18:INFO: Testing epoch: 7, Average loss: 0.0350, Top1-Acc: 98.9400, Top5-Acc: 100.0000
+2023-02-19 23:31:18:INFO:Training epoch:8, lr:0.016652, loss:0.017895, acc1:100.0000, acc5:100.0000
+2023-02-19 23:31:18:INFO:Training epoch:8, lr:0.015691, loss:0.028885, acc1:99.2188, acc5:100.0000
+2023-02-19 23:31:19:INFO:Training epoch:8, lr:0.014729, loss:0.036055, acc1:98.9955, acc5:100.0000
+2023-02-19 23:31:19:INFO:Training epoch:8, lr:0.013768, loss:0.038103, acc1:98.9919, acc5:99.9874
+2023-02-19 23:31:19:INFO:Training epoch:8, lr:0.012806, loss:0.037265, acc1:98.9329, acc5:99.9905
+2023-02-19 23:31:19:INFO:Training epoch:8, lr:0.011844, loss:0.038233, acc1:98.8588, acc5:99.9923
+2023-02-19 23:31:20:INFO: Testing epoch: 8, Average loss: 0.0393, Top1-Acc: 98.6800, Top5-Acc: 99.9900
+2023-02-19 23:31:20:INFO:Training epoch:9, lr:0.011075, loss:0.091917, acc1:97.6562, acc5:100.0000
+2023-02-19 23:31:20:INFO:Training epoch:9, lr:0.010113, loss:0.038110, acc1:98.8636, acc5:100.0000
+2023-02-19 23:31:20:INFO:Training epoch:9, lr:0.009152, loss:0.037377, acc1:98.9211, acc5:100.0000
+2023-02-19 23:31:20:INFO:Training epoch:9, lr:0.008190, loss:0.035323, acc1:98.9541, acc5:100.0000
+2023-02-19 23:31:20:INFO:Training epoch:9, lr:0.007228, loss:0.035393, acc1:98.9425, acc5:99.9905
+2023-02-19 23:31:21:INFO:Training epoch:9, lr:0.006267, loss:0.036826, acc1:98.9354, acc5:99.9770
+2023-02-19 23:31:21:INFO: Testing epoch: 9, Average loss: 0.0316, Top1-Acc: 98.9900, Top5-Acc: 100.0000
+2023-02-19 23:31:22:INFO:Training epoch:10, lr:0.005497, loss:0.014092, acc1:100.0000, acc5:100.0000
+2023-02-19 23:31:22:INFO:Training epoch:10, lr:0.004536, loss:0.026501, acc1:99.1477, acc5:100.0000
+2023-02-19 23:31:22:INFO:Training epoch:10, lr:0.003574, loss:0.023927, acc1:99.2560, acc5:100.0000
+2023-02-19 23:31:22:INFO:Training epoch:10, lr:0.002612, loss:0.024204, acc1:99.2818, acc5:100.0000
+2023-02-19 23:31:22:INFO:Training epoch:10, lr:0.001651, loss:0.027903, acc1:99.1806, acc5:99.9905
+2023-02-19 23:31:22:INFO:Training epoch:10, lr:0.000689, loss:0.030433, acc1:99.1498, acc5:99.9923
+2023-02-19 23:31:23:INFO: Testing epoch: 10, Average loss: 0.0318, Top1-Acc: 98.9500, Top5-Acc: 100.0000
+2023-02-19 23:31:23:INFO:LR:0.028000, test_loss:0.031638, test_acc:98.9900
+2023-02-19 23:31:23:INFO:Training epoch:1, lr:0.001386, loss:2.301172, acc1:9.7656, acc5:48.8281
+2023-02-19 23:31:23:INFO:Reducer buckets have been rebuilt in this iteration.
+2023-02-19 23:31:23:INFO:Training epoch:1, lr:0.002449, loss:2.299430, acc1:11.5412, acc5:52.6278
+2023-02-19 23:31:24:INFO:Training epoch:1, lr:0.003512, loss:2.287605, acc1:17.6525, acc5:59.5238
+2023-02-19 23:31:24:INFO:Training epoch:1, lr:0.004575, loss:2.266999, acc1:27.9738, acc5:68.2838
+2023-02-19 23:31:24:INFO:Training epoch:1, lr:0.005638, loss:2.233070, acc1:37.7001, acc5:73.7614
+2023-02-19 23:31:24:INFO:Training epoch:1, lr:0.006701, loss:2.159958, acc1:44.0334, acc5:77.9259
+2023-02-19 23:31:25:INFO: Testing epoch: 1, Average loss: 0.9484, Top1-Acc: 80.4000, Top5-Acc: 98.6900
+2023-02-19 23:31:25:INFO:Training epoch:2, lr:0.007552, loss:0.929240, acc1:79.6875, acc5:97.6562
+2023-02-19 23:31:25:INFO:Training epoch:2, lr:0.008615, loss:0.687278, acc1:81.9247, acc5:98.6861
+2023-02-19 23:31:25:INFO:Training epoch:2, lr:0.009678, loss:0.570961, acc1:83.9286, acc5:98.9211
+2023-02-19 23:31:25:INFO:Training epoch:2, lr:0.010740, loss:0.527003, acc1:84.5766, acc5:99.0549
+2023-02-19 23:31:26:INFO:Training epoch:2, lr:0.011803, loss:0.483254, acc1:85.7946, acc5:99.2092
+2023-02-19 23:31:26:INFO:Training epoch:2, lr:0.012866, loss:0.446375, acc1:86.9409, acc5:99.2953
+2023-02-19 23:31:26:INFO: Testing epoch: 2, Average loss: 0.2192, Top1-Acc: 93.3900, Top5-Acc: 99.8200
+2023-02-19 23:31:27:INFO:Training epoch:3, lr:0.013717, loss:0.229129, acc1:92.9688, acc5:99.6094
+2023-02-19 23:31:27:INFO:Training epoch:3, lr:0.014780, loss:0.239699, acc1:92.6491, acc5:99.7514
+2023-02-19 23:31:27:INFO:Training epoch:3, lr:0.015843, loss:0.214631, acc1:93.2850, acc5:99.8140
+2023-02-19 23:31:27:INFO:Training epoch:3, lr:0.016906, loss:0.196731, acc1:93.8508, acc5:99.8236
+2023-02-19 23:31:27:INFO:Training epoch:3, lr:0.017969, loss:0.184085, acc1:94.2645, acc5:99.8476
+2023-02-19 23:31:27:INFO:Training epoch:3, lr:0.019032, loss:0.174925, acc1:94.5772, acc5:99.8545
+2023-02-19 23:31:28:INFO: Testing epoch: 3, Average loss: 0.1050, Top1-Acc: 96.7900, Top5-Acc: 99.9500
+2023-02-19 23:31:28:INFO:Training epoch:4, lr:0.019882, loss:0.098434, acc1:97.2656, acc5:99.6094
+2023-02-19 23:31:29:INFO:Training epoch:4, lr:0.020945, loss:0.134537, acc1:96.0938, acc5:99.7514
+2023-02-19 23:31:29:INFO:Training epoch:4, lr:0.022008, loss:0.123907, acc1:96.2984, acc5:99.7768
+2023-02-19 23:31:29:INFO:Training epoch:4, lr:0.023071, loss:0.119656, acc1:96.3962, acc5:99.8362
+2023-02-19 23:31:29:INFO:Training epoch:4, lr:0.024134, loss:0.112610, acc1:96.6559, acc5:99.8666
+2023-02-19 23:31:29:INFO:Training epoch:4, lr:0.025197, loss:0.106667, acc1:96.8367, acc5:99.8851
+2023-02-19 23:31:30:INFO: Testing epoch: 4, Average loss: 0.0683, Top1-Acc: 98.0000, Top5-Acc: 99.9800
+2023-02-19 23:31:30:INFO:Training epoch:5, lr:0.026047, loss:0.056660, acc1:98.8281, acc5:100.0000
+2023-02-19 23:31:30:INFO:Training epoch:5, lr:0.027110, loss:0.066762, acc1:98.0469, acc5:99.9645
+2023-02-19 23:31:30:INFO:Training epoch:5, lr:0.028173, loss:0.072423, acc1:98.0283, acc5:99.9628
+2023-02-19 23:31:30:INFO:Training epoch:5, lr:0.029236, loss:0.070901, acc1:97.9965, acc5:99.9496
+2023-02-19 23:31:31:INFO:Training epoch:5, lr:0.030299, loss:0.071978, acc1:97.9421, acc5:99.9619
+2023-02-19 23:31:31:INFO:Training epoch:5, lr:0.031362, loss:0.070878, acc1:97.9396, acc5:99.9540
+2023-02-19 23:31:31:INFO: Testing epoch: 5, Average loss: 0.0506, Top1-Acc: 98.4300, Top5-Acc: 100.0000
+2023-02-19 23:31:32:INFO:Training epoch:6, lr:0.031780, loss:0.062155, acc1:98.0469, acc5:100.0000
+2023-02-19 23:31:32:INFO:Training epoch:6, lr:0.030681, loss:0.055689, acc1:98.1534, acc5:99.9645
+2023-02-19 23:31:32:INFO:Training epoch:6, lr:0.029582, loss:0.059370, acc1:98.1213, acc5:99.9814
+2023-02-19 23:31:32:INFO:Training epoch:6, lr:0.028483, loss:0.057955, acc1:98.1225, acc5:99.9874
+2023-02-19 23:31:32:INFO:Training epoch:6, lr:0.027384, loss:0.058325, acc1:98.1421, acc5:99.9905
+2023-02-19 23:31:32:INFO:Training epoch:6, lr:0.026285, loss:0.057735, acc1:98.1618, acc5:99.9923
+2023-02-19 23:31:33:INFO: Testing epoch: 6, Average loss: 0.0448, Top1-Acc: 98.5300, Top5-Acc: 100.0000
+2023-02-19 23:31:34:INFO:Training epoch:7, lr:0.025406, loss:0.051095, acc1:98.4375, acc5:100.0000
+2023-02-19 23:31:34:INFO:Training epoch:7, lr:0.024307, loss:0.044560, acc1:98.5440, acc5:100.0000
+2023-02-19 23:31:34:INFO:Training epoch:7, lr:0.023208, loss:0.041926, acc1:98.5491, acc5:100.0000
+2023-02-19 23:31:34:INFO:Training epoch:7, lr:0.022109, loss:0.040309, acc1:98.6139, acc5:100.0000
+2023-02-19 23:31:34:INFO:Training epoch:7, lr:0.021010, loss:0.040493, acc1:98.6185, acc5:100.0000
+2023-02-19 23:31:34:INFO:Training epoch:7, lr:0.019911, loss:0.041189, acc1:98.5600, acc5:100.0000
+2023-02-19 23:31:35:INFO: Testing epoch: 7, Average loss: 0.0352, Top1-Acc: 98.8800, Top5-Acc: 100.0000
+2023-02-19 23:31:35:INFO:Training epoch:8, lr:0.019031, loss:0.017787, acc1:99.2188, acc5:100.0000
+2023-02-19 23:31:35:INFO:Training epoch:8, lr:0.017932, loss:0.026178, acc1:99.1832, acc5:100.0000
+2023-02-19 23:31:36:INFO:Training epoch:8, lr:0.016833, loss:0.033466, acc1:98.9769, acc5:100.0000
+2023-02-19 23:31:36:INFO:Training epoch:8, lr:0.015734, loss:0.034774, acc1:98.9667, acc5:100.0000
+2023-02-19 23:31:36:INFO:Training epoch:8, lr:0.014635, loss:0.034264, acc1:98.9806, acc5:100.0000
+2023-02-19 23:31:36:INFO:Training epoch:8, lr:0.013536, loss:0.035271, acc1:98.9200, acc5:100.0000
+2023-02-19 23:31:37:INFO: Testing epoch: 8, Average loss: 0.0394, Top1-Acc: 98.7300, Top5-Acc: 100.0000
+2023-02-19 23:31:37:INFO:Training epoch:9, lr:0.012657, loss:0.088111, acc1:97.6562, acc5:100.0000
+2023-02-19 23:31:37:INFO:Training epoch:9, lr:0.011558, loss:0.033786, acc1:98.9702, acc5:100.0000
+2023-02-19 23:31:37:INFO:Training epoch:9, lr:0.010459, loss:0.032360, acc1:99.0141, acc5:100.0000
+2023-02-19 23:31:37:INFO:Training epoch:9, lr:0.009360, loss:0.031194, acc1:99.0297, acc5:100.0000
+2023-02-19 23:31:38:INFO:Training epoch:9, lr:0.008261, loss:0.030592, acc1:99.1044, acc5:100.0000
+2023-02-19 23:31:38:INFO:Training epoch:9, lr:0.007162, loss:0.031910, acc1:99.0962, acc5:99.9847
+2023-02-19 23:31:38:INFO: Testing epoch: 9, Average loss: 0.0310, Top1-Acc: 99.0100, Top5-Acc: 100.0000
+2023-02-19 23:31:39:INFO:Training epoch:10, lr:0.006283, loss:0.012569, acc1:100.0000, acc5:100.0000
+2023-02-19 23:31:39:INFO:Training epoch:10, lr:0.005184, loss:0.022191, acc1:99.4318, acc5:100.0000
+2023-02-19 23:31:39:INFO:Training epoch:10, lr:0.004085, loss:0.020915, acc1:99.4792, acc5:100.0000
+2023-02-19 23:31:39:INFO:Training epoch:10, lr:0.002985, loss:0.021158, acc1:99.4960, acc5:100.0000
+2023-02-19 23:31:39:INFO:Training epoch:10, lr:0.001886, loss:0.024874, acc1:99.3331, acc5:100.0000
+2023-02-19 23:31:40:INFO:Training epoch:10, lr:0.000787, loss:0.027434, acc1:99.2494, acc5:100.0000
+2023-02-19 23:31:40:INFO: Testing epoch: 10, Average loss: 0.0308, Top1-Acc: 98.9500, Top5-Acc: 100.0000
+2023-02-19 23:31:40:INFO:LR:0.032000, test_loss:0.031048, test_acc:99.0100
+2023-02-19 23:31:41:INFO:Training epoch:1, lr:0.001560, loss:2.294726, acc1:8.9844, acc5:58.9844
+2023-02-19 23:31:41:INFO:Reducer buckets have been rebuilt in this iteration.
+2023-02-19 23:31:41:INFO:Training epoch:1, lr:0.002755, loss:2.288912, acc1:13.1747, acc5:60.8665
+2023-02-19 23:31:41:INFO:Training epoch:1, lr:0.003951, loss:2.262166, acc1:22.3400, acc5:72.0982
+2023-02-19 23:31:41:INFO:Training epoch:1, lr:0.005147, loss:2.206116, acc1:33.8836, acc5:79.4103
+2023-02-19 23:31:41:INFO:Training epoch:1, lr:0.006343, loss:2.077151, acc1:42.7973, acc5:83.7271
+2023-02-19 23:31:41:INFO:Training epoch:1, lr:0.007539, loss:1.837233, acc1:50.2298, acc5:86.6422
+2023-02-19 23:31:42:INFO: Testing epoch: 1, Average loss: 0.4563, Top1-Acc: 86.0300, Top5-Acc: 99.1400
+2023-02-19 23:31:42:INFO:Training epoch:2, lr:0.008496, loss:0.454054, acc1:87.8906, acc5:98.0469
+2023-02-19 23:31:42:INFO:Training epoch:2, lr:0.009691, loss:0.445704, acc1:87.2514, acc5:99.2898
+2023-02-19 23:31:43:INFO:Training epoch:2, lr:0.010887, loss:0.413375, acc1:87.6860, acc5:99.3304
+2023-02-19 23:31:43:INFO:Training epoch:2, lr:0.012083, loss:0.387786, acc1:88.3191, acc5:99.4456
+2023-02-19 23:31:43:INFO:Training epoch:2, lr:0.013279, loss:0.361444, acc1:89.1387, acc5:99.5522
+2023-02-19 23:31:43:INFO:Training epoch:2, lr:0.014475, loss:0.337596, acc1:90.0276, acc5:99.5787
+2023-02-19 23:31:44:INFO: Testing epoch: 2, Average loss: 0.1873, Top1-Acc: 94.4000, Top5-Acc: 99.9100
+2023-02-19 23:31:44:INFO:Training epoch:3, lr:0.015431, loss:0.218612, acc1:93.7500, acc5:99.2188
+2023-02-19 23:31:44:INFO:Training epoch:3, lr:0.016627, loss:0.202476, acc1:94.1051, acc5:99.6449
+2023-02-19 23:31:44:INFO:Training epoch:3, lr:0.017823, loss:0.181041, acc1:94.8289, acc5:99.7768
+2023-02-19 23:31:44:INFO:Training epoch:3, lr:0.019019, loss:0.163602, acc1:95.2369, acc5:99.7732
+2023-02-19 23:31:44:INFO:Training epoch:3, lr:0.020215, loss:0.154518, acc1:95.4840, acc5:99.8190
+2023-02-19 23:31:45:INFO:Training epoch:3, lr:0.021411, loss:0.148278, acc1:95.7031, acc5:99.8392
+2023-02-19 23:31:45:INFO: Testing epoch: 3, Average loss: 0.0857, Top1-Acc: 97.3000, Top5-Acc: 99.9700
+2023-02-19 23:31:46:INFO:Training epoch:4, lr:0.022367, loss:0.083767, acc1:97.6562, acc5:100.0000
+2023-02-19 23:31:46:INFO:Training epoch:4, lr:0.023563, loss:0.119434, acc1:96.4844, acc5:99.8580
+2023-02-19 23:31:46:INFO:Training epoch:4, lr:0.024759, loss:0.106819, acc1:96.7076, acc5:99.8884
+2023-02-19 23:31:46:INFO:Training epoch:4, lr:0.025955, loss:0.102764, acc1:96.8624, acc5:99.9244
+2023-02-19 23:31:46:INFO:Training epoch:4, lr:0.027151, loss:0.096075, acc1:97.1132, acc5:99.9333
+2023-02-19 23:31:46:INFO:Training epoch:4, lr:0.028347, loss:0.091715, acc1:97.2273, acc5:99.9387
+2023-02-19 23:31:47:INFO: Testing epoch: 4, Average loss: 0.0588, Top1-Acc: 98.2300, Top5-Acc: 99.9700
+2023-02-19 23:31:47:INFO:Training epoch:5, lr:0.029303, loss:0.059002, acc1:97.2656, acc5:100.0000
+2023-02-19 23:31:48:INFO:Training epoch:5, lr:0.030499, loss:0.062252, acc1:98.0469, acc5:99.9645
+2023-02-19 23:31:48:INFO:Training epoch:5, lr:0.031695, loss:0.063682, acc1:98.1957, acc5:99.9442
+2023-02-19 23:31:48:INFO:Training epoch:5, lr:0.032891, loss:0.061374, acc1:98.2611, acc5:99.9496
+2023-02-19 23:31:48:INFO:Training epoch:5, lr:0.034087, loss:0.063230, acc1:98.1993, acc5:99.9524
+2023-02-19 23:31:48:INFO:Training epoch:5, lr:0.035282, loss:0.061825, acc1:98.1694, acc5:99.9464
+2023-02-19 23:31:49:INFO: Testing epoch: 5, Average loss: 0.0498, Top1-Acc: 98.4700, Top5-Acc: 99.9800
+2023-02-19 23:31:49:INFO:Training epoch:6, lr:0.035753, loss:0.089309, acc1:97.2656, acc5:100.0000
+2023-02-19 23:31:49:INFO:Training epoch:6, lr:0.034516, loss:0.051576, acc1:98.3665, acc5:99.9645
+2023-02-19 23:31:49:INFO:Training epoch:6, lr:0.033280, loss:0.054636, acc1:98.2515, acc5:99.9814
+2023-02-19 23:31:49:INFO:Training epoch:6, lr:0.032043, loss:0.053676, acc1:98.3493, acc5:99.9874
+2023-02-19 23:31:50:INFO:Training epoch:6, lr:0.030807, loss:0.053503, acc1:98.3803, acc5:99.9905
+2023-02-19 23:31:50:INFO:Training epoch:6, lr:0.029571, loss:0.053319, acc1:98.3686, acc5:99.9923
+2023-02-19 23:31:50:INFO: Testing epoch: 6, Average loss: 0.0405, Top1-Acc: 98.6800, Top5-Acc: 99.9900
+2023-02-19 23:31:51:INFO:Training epoch:7, lr:0.028582, loss:0.058747, acc1:98.4375, acc5:100.0000
+2023-02-19 23:31:51:INFO:Training epoch:7, lr:0.027345, loss:0.039779, acc1:98.7926, acc5:100.0000
+2023-02-19 23:31:51:INFO:Training epoch:7, lr:0.026109, loss:0.036341, acc1:98.9025, acc5:100.0000
+2023-02-19 23:31:51:INFO:Training epoch:7, lr:0.024872, loss:0.034233, acc1:98.9163, acc5:99.9874
+2023-02-19 23:31:51:INFO:Training epoch:7, lr:0.023636, loss:0.034221, acc1:98.8853, acc5:99.9905
+2023-02-19 23:31:51:INFO:Training epoch:7, lr:0.022399, loss:0.034229, acc1:98.8894, acc5:99.9923
+2023-02-19 23:31:52:INFO: Testing epoch: 7, Average loss: 0.0324, Top1-Acc: 99.0000, Top5-Acc: 99.9900
+2023-02-19 23:31:53:INFO:Training epoch:8, lr:0.021410, loss:0.010976, acc1:100.0000, acc5:100.0000
+2023-02-19 23:31:53:INFO:Training epoch:8, lr:0.020174, loss:0.023469, acc1:99.1477, acc5:100.0000
+2023-02-19 23:31:53:INFO:Training epoch:8, lr:0.018937, loss:0.029923, acc1:99.0885, acc5:100.0000
+2023-02-19 23:31:53:INFO:Training epoch:8, lr:0.017701, loss:0.031379, acc1:99.0549, acc5:100.0000
+2023-02-19 23:31:53:INFO:Training epoch:8, lr:0.016465, loss:0.031110, acc1:99.0377, acc5:100.0000
+2023-02-19 23:31:53:INFO:Training epoch:8, lr:0.015228, loss:0.031589, acc1:99.0426, acc5:100.0000
+2023-02-19 23:31:54:INFO: Testing epoch: 8, Average loss: 0.0355, Top1-Acc: 98.8300, Top5-Acc: 99.9800
+2023-02-19 23:31:54:INFO:Training epoch:9, lr:0.014239, loss:0.080093, acc1:98.0469, acc5:100.0000
+2023-02-19 23:31:54:INFO:Training epoch:9, lr:0.013003, loss:0.029708, acc1:99.2188, acc5:100.0000
+2023-02-19 23:31:54:INFO:Training epoch:9, lr:0.011766, loss:0.029519, acc1:99.2001, acc5:100.0000
+2023-02-19 23:31:54:INFO:Training epoch:9, lr:0.010530, loss:0.028240, acc1:99.1809, acc5:100.0000
+2023-02-19 23:31:55:INFO:Training epoch:9, lr:0.009293, loss:0.027438, acc1:99.2378, acc5:100.0000
+2023-02-19 23:31:55:INFO:Training epoch:9, lr:0.008057, loss:0.029729, acc1:99.2034, acc5:99.9847
+2023-02-19 23:31:55:INFO: Testing epoch: 9, Average loss: 0.0274, Top1-Acc: 99.1400, Top5-Acc: 99.9800
+2023-02-19 23:31:56:INFO:Training epoch:10, lr:0.007068, loss:0.011579, acc1:100.0000, acc5:100.0000
+2023-02-19 23:31:56:INFO:Training epoch:10, lr:0.005832, loss:0.022343, acc1:99.3253, acc5:100.0000
+2023-02-19 23:31:56:INFO:Training epoch:10, lr:0.004595, loss:0.018933, acc1:99.5164, acc5:100.0000
+2023-02-19 23:31:56:INFO:Training epoch:10, lr:0.003359, loss:0.018744, acc1:99.5086, acc5:100.0000
+2023-02-19 23:31:56:INFO:Training epoch:10, lr:0.002122, loss:0.021550, acc1:99.4188, acc5:100.0000
+2023-02-19 23:31:56:INFO:Training epoch:10, lr:0.000886, loss:0.023324, acc1:99.3566, acc5:100.0000
+2023-02-19 23:31:57:INFO: Testing epoch: 10, Average loss: 0.0271, Top1-Acc: 99.1300, Top5-Acc: 99.9800
+2023-02-19 23:31:57:INFO:LR:0.036000, test_loss:0.027387, test_acc:99.1400
+2023-02-19 23:31:57:INFO:Training epoch:1, lr:0.001733, loss:2.314847, acc1:10.9375, acc5:45.7031
+2023-02-19 23:31:57:INFO:Reducer buckets have been rebuilt in this iteration.
+2023-02-19 23:31:58:INFO:Training epoch:1, lr:0.003062, loss:2.300590, acc1:12.1449, acc5:52.7699
+2023-02-19 23:31:58:INFO:Training epoch:1, lr:0.004390, loss:2.266618, acc1:22.9725, acc5:66.6295
+2023-02-19 23:31:58:INFO:Training epoch:1, lr:0.005719, loss:2.200808, acc1:35.7989, acc5:74.2188
+2023-02-19 23:31:58:INFO:Training epoch:1, lr:0.007048, loss:2.045684, acc1:43.9977, acc5:80.0114
+2023-02-19 23:31:58:INFO:Training epoch:1, lr:0.008376, loss:1.790822, acc1:51.2485, acc5:83.6627
+2023-02-19 23:31:59:INFO: Testing epoch: 1, Average loss: 0.4828, Top1-Acc: 85.2900, Top5-Acc: 99.1500
+2023-02-19 23:31:59:INFO:Training epoch:2, lr:0.009439, loss:0.551588, acc1:86.7188, acc5:97.6562
+2023-02-19 23:31:59:INFO:Training epoch:2, lr:0.010768, loss:0.457220, acc1:86.7188, acc5:99.1477
+2023-02-19 23:31:59:INFO:Training epoch:2, lr:0.012097, loss:0.401265, acc1:88.2254, acc5:99.2932
+2023-02-19 23:31:59:INFO:Training epoch:2, lr:0.013426, loss:0.366165, acc1:89.0877, acc5:99.4204
+2023-02-19 23:32:00:INFO:Training epoch:2, lr:0.014754, loss:0.340043, acc1:89.7580, acc5:99.4950
+2023-02-19 23:32:00:INFO:Training epoch:2, lr:0.016083, loss:0.318714, acc1:90.3646, acc5:99.5558
+2023-02-19 23:32:00:INFO: Testing epoch: 2, Average loss: 0.1621, Top1-Acc: 95.1200, Top5-Acc: 99.9300
+2023-02-19 23:32:01:INFO:Training epoch:3, lr:0.017146, loss:0.174233, acc1:95.3125, acc5:99.6094
+2023-02-19 23:32:01:INFO:Training epoch:3, lr:0.018475, loss:0.194278, acc1:94.3182, acc5:99.8224
+2023-02-19 23:32:01:INFO:Training epoch:3, lr:0.019803, loss:0.175654, acc1:94.6429, acc5:99.8698
+2023-02-19 23:32:01:INFO:Training epoch:3, lr:0.021132, loss:0.160879, acc1:95.1613, acc5:99.8614
+2023-02-19 23:32:01:INFO:Training epoch:3, lr:0.022461, loss:0.151997, acc1:95.4554, acc5:99.8857
+2023-02-19 23:32:01:INFO:Training epoch:3, lr:0.023790, loss:0.145012, acc1:95.6801, acc5:99.8775
+2023-02-19 23:32:02:INFO: Testing epoch: 3, Average loss: 0.0833, Top1-Acc: 97.5200, Top5-Acc: 99.9900
+2023-02-19 23:32:02:INFO:Training epoch:4, lr:0.024853, loss:0.100216, acc1:96.8750, acc5:100.0000
+2023-02-19 23:32:03:INFO:Training epoch:4, lr:0.026181, loss:0.118395, acc1:96.4134, acc5:99.8935
+2023-02-19 23:32:03:INFO:Training epoch:4, lr:0.027510, loss:0.108529, acc1:96.7820, acc5:99.8884
+2023-02-19 23:32:03:INFO:Training epoch:4, lr:0.028839, loss:0.107100, acc1:96.8750, acc5:99.9244
+2023-02-19 23:32:03:INFO:Training epoch:4, lr:0.030167, loss:0.102322, acc1:97.0751, acc5:99.9333
+2023-02-19 23:32:03:INFO:Training epoch:4, lr:0.031496, loss:0.097433, acc1:97.2044, acc5:99.9311
+2023-02-19 23:32:04:INFO: Testing epoch: 4, Average loss: 0.0603, Top1-Acc: 98.0600, Top5-Acc: 99.9900
+2023-02-19 23:32:04:INFO:Training epoch:5, lr:0.032559, loss:0.042205, acc1:98.4375, acc5:100.0000
+2023-02-19 23:32:04:INFO:Training epoch:5, lr:0.033888, loss:0.061835, acc1:98.2244, acc5:99.9645
+2023-02-19 23:32:05:INFO:Training epoch:5, lr:0.035217, loss:0.066683, acc1:98.1399, acc5:99.9628
+2023-02-19 23:32:05:INFO:Training epoch:5, lr:0.036545, loss:0.065413, acc1:98.0973, acc5:99.9496
+2023-02-19 23:32:05:INFO:Training epoch:5, lr:0.037874, loss:0.067942, acc1:98.0183, acc5:99.9333
+2023-02-19 23:32:05:INFO:Training epoch:5, lr:0.039203, loss:0.065409, acc1:98.0852, acc5:99.9311
+2023-02-19 23:32:06:INFO: Testing epoch: 5, Average loss: 0.0483, Top1-Acc: 98.5300, Top5-Acc: 100.0000
+2023-02-19 23:32:06:INFO:Training epoch:6, lr:0.039725, loss:0.069067, acc1:98.4375, acc5:100.0000
+2023-02-19 23:32:06:INFO:Training epoch:6, lr:0.038351, loss:0.054183, acc1:98.4020, acc5:99.9290
+2023-02-19 23:32:06:INFO:Training epoch:6, lr:0.036978, loss:0.056899, acc1:98.2329, acc5:99.9628
+2023-02-19 23:32:06:INFO:Training epoch:6, lr:0.035604, loss:0.055540, acc1:98.2359, acc5:99.9622
+2023-02-19 23:32:06:INFO:Training epoch:6, lr:0.034230, loss:0.056195, acc1:98.2660, acc5:99.9619
+2023-02-19 23:32:07:INFO:Training epoch:6, lr:0.032856, loss:0.054864, acc1:98.3226, acc5:99.9694
+2023-02-19 23:32:07:INFO: Testing epoch: 6, Average loss: 0.0435, Top1-Acc: 98.5200, Top5-Acc: 99.9900
+2023-02-19 23:32:08:INFO:Training epoch:7, lr:0.031757, loss:0.043770, acc1:98.4375, acc5:100.0000
+2023-02-19 23:32:08:INFO:Training epoch:7, lr:0.030383, loss:0.038988, acc1:98.7216, acc5:100.0000
+2023-02-19 23:32:08:INFO:Training epoch:7, lr:0.029010, loss:0.038452, acc1:98.6421, acc5:100.0000
+2023-02-19 23:32:08:INFO:Training epoch:7, lr:0.027636, loss:0.037154, acc1:98.7399, acc5:99.9874
+2023-02-19 23:32:08:INFO:Training epoch:7, lr:0.026262, loss:0.037235, acc1:98.6852, acc5:99.9905
+2023-02-19 23:32:08:INFO:Training epoch:7, lr:0.024888, loss:0.036305, acc1:98.7669, acc5:99.9923
+2023-02-19 23:32:09:INFO: Testing epoch: 7, Average loss: 0.0344, Top1-Acc: 98.9000, Top5-Acc: 100.0000
+2023-02-19 23:32:09:INFO:Training epoch:8, lr:0.023789, loss:0.013513, acc1:99.6094, acc5:100.0000
+2023-02-19 23:32:10:INFO:Training epoch:8, lr:0.022415, loss:0.022827, acc1:99.2543, acc5:100.0000
+2023-02-19 23:32:10:INFO:Training epoch:8, lr:0.021042, loss:0.027851, acc1:99.1071, acc5:99.9814
+2023-02-19 23:32:10:INFO:Training epoch:8, lr:0.019668, loss:0.029412, acc1:99.0801, acc5:99.9874
+2023-02-19 23:32:10:INFO:Training epoch:8, lr:0.018294, loss:0.029798, acc1:99.0758, acc5:99.9905
+2023-02-19 23:32:10:INFO:Training epoch:8, lr:0.016920, loss:0.031120, acc1:99.0502, acc5:99.9923
+2023-02-19 23:32:11:INFO: Testing epoch: 8, Average loss: 0.0395, Top1-Acc: 98.7500, Top5-Acc: 100.0000
+2023-02-19 23:32:11:INFO:Training epoch:9, lr:0.015821, loss:0.074310, acc1:98.4375, acc5:100.0000
+2023-02-19 23:32:11:INFO:Training epoch:9, lr:0.014447, loss:0.031733, acc1:99.0057, acc5:100.0000
+2023-02-19 23:32:11:INFO:Training epoch:9, lr:0.013074, loss:0.030027, acc1:99.0699, acc5:100.0000
+2023-02-19 23:32:12:INFO:Training epoch:9, lr:0.011700, loss:0.028132, acc1:99.1305, acc5:100.0000
+2023-02-19 23:32:12:INFO:Training epoch:9, lr:0.010326, loss:0.026925, acc1:99.2092, acc5:99.9905
+2023-02-19 23:32:12:INFO:Training epoch:9, lr:0.008952, loss:0.028099, acc1:99.2034, acc5:99.9847
+2023-02-19 23:32:12:INFO: Testing epoch: 9, Average loss: 0.0295, Top1-Acc: 99.0100, Top5-Acc: 100.0000
+2023-02-19 23:32:13:INFO:Training epoch:10, lr:0.007853, loss:0.017288, acc1:99.6094, acc5:100.0000
+2023-02-19 23:32:13:INFO:Training epoch:10, lr:0.006479, loss:0.021213, acc1:99.4673, acc5:100.0000
+2023-02-19 23:32:13:INFO:Training epoch:10, lr:0.005106, loss:0.018840, acc1:99.5350, acc5:100.0000
+2023-02-19 23:32:13:INFO:Training epoch:10, lr:0.003732, loss:0.018719, acc1:99.5338, acc5:100.0000
+2023-02-19 23:32:13:INFO:Training epoch:10, lr:0.002358, loss:0.021092, acc1:99.4760, acc5:100.0000
+2023-02-19 23:32:13:INFO:Training epoch:10, lr:0.000984, loss:0.023313, acc1:99.4256, acc5:100.0000
+2023-02-19 23:32:14:INFO: Testing epoch: 10, Average loss: 0.0298, Top1-Acc: 98.9800, Top5-Acc: 100.0000
+2023-02-19 23:32:14:INFO:LR:0.040000, test_loss:0.029496, test_acc:99.0100
+2023-02-19 23:32:14:INFO:Optimal LR:0.036000, test_loss:0.027387, test_acc:99.1400
+2023-02-20 00:43:07:INFO:world_size:4
+2023-02-20 00:43:07:INFO:fix the seed:2020
+2023-02-20 00:43:07:INFO:Use optimizer:sgd, dataset:MNIST, batch size:2048
+2023-02-20 00:43:07:INFO:search lr from: 0.04 to 0.04 with number:1
+2023-02-20 00:43:07:INFO:Use mixup ? 0,  beta:0.2 
+2023-02-20 00:43:10:INFO:Training epoch:1, lr:0.001733, loss:2.311273, acc1:8.2031, acc5:40.2344
+2023-02-20 00:43:10:INFO:Reducer buckets have been rebuilt in this iteration.
+2023-02-20 00:43:11:INFO:Training epoch:1, lr:0.003062, loss:2.295774, acc1:12.3935, acc5:51.7045
+2023-02-20 00:43:11:INFO:Training epoch:1, lr:0.004390, loss:2.260884, acc1:27.5484, acc5:67.9315
+2023-02-20 00:43:11:INFO:Training epoch:1, lr:0.005719, loss:2.193183, acc1:38.4073, acc5:75.6048
+2023-02-20 00:43:11:INFO:Training epoch:1, lr:0.007048, loss:2.032836, acc1:47.1799, acc5:80.8308
+2023-02-20 00:43:11:INFO:Training epoch:1, lr:0.008376, loss:1.768717, acc1:54.3888, acc5:84.3520
+2023-02-20 00:43:12:INFO: Testing epoch: 1, Average loss: 0.4504, Top1-Acc: 85.9700, Top5-Acc: 99.2800
