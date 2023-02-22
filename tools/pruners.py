@@ -30,6 +30,11 @@ def prune_weights_reparam(model):
     for m in module_list:
         prune.identity(m,name="weight")
 
+def prune_weights_remove_reparam(model):
+    module_list = get_modules(model)
+    for m in module_list:
+        prune.remove(m,name="weight")
+
 def prune_weights_l1predefined(model,amounts):
     mlist = get_modules(model)
     for idx,m in enumerate(mlist):
